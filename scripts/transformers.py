@@ -53,32 +53,39 @@ class CustomBestFeaturesTransformer(BaseEstimator, TransformerMixin):
         self.rfecv_ = None
         self.cv = cv
         self.scoring = scoring
-        self.best_features = []
+        # self.best_features = []
 
     def fit(self, X, y=None):
         '''
         Fit the RFECV.
         '''
         if y is None: return self
-        if type(X) != pd.DataFrame: 
-            print("Cannot use non-pandas DataFrame type.")
-            return self
+        # if type(X) != pd.DataFrame: 
+        #     print("Cannot use non-pandas DataFrame type.")
+        #     return self
         print("Fitting RFECV...")
         self.rfecv_ = RFECV(estimator=RandomForestClassifier(n_jobs=-1), step=1, cv=self.cv, scoring=self.scoring)
         self.rfecv_.fit(X, y)
-        self.best_features = X.columns[self.rfecv.support_]
+        # self.best_features = X.columns[self.rfecv.support_]
         return self 
 
     def transform(self, X):
         '''
         Transform the data using trained RFECV.
         '''
-        if type(X) != pd.DataFrame: 
-            print("Cannot use non-pandas DataFrame type.")
-            return self
-        elif not (self.best_features in X.columns): 
+        # if type(X) != pd.DataFrame: 
+        #     print("Cannot use non-pandas DataFrame type.")
+        #     return self
+        # elif not (self.best_features in X.columns): 
+            # return X
+        # return X[self.best_features]
+        print("Transforming data using RFECV...")
+        try:
+            return X[:, self.rfecv_.support_]
+        except:
+            print("X data dimensions not compatible with RFECV.")
             return X
-        return X[self.best_features]
+
 
 class CustomImputerTransformer(BaseEstimator, TransformerMixin):
     def __init__(self, lower: int=-1e9, upper: int=1e9):
@@ -90,7 +97,7 @@ class CustomImputerTransformer(BaseEstimator, TransformerMixin):
         '''
         Fit the IterativeImputer.
         '''
-        # print("Fitting IterativeImputer...")
+        print("Fitting IterativeImputer...")
         self.imp_ = IterativeImputer(random_state=0, min_value=self.lower, max_value=self.upper)
         self.imp_.fit(X) if y is None else self.imp_.fit(X, y)
         return self 
@@ -99,7 +106,7 @@ class CustomImputerTransformer(BaseEstimator, TransformerMixin):
         '''
         Transform the data using trained IterativeImputer.
         '''
-        # print("Transforming data using IterativeImputer...")
+        print("Transforming data using IterativeImputer...")
         return self.imp_.transform(X)
     
 class CustomClipTransformer(BaseEstimator, TransformerMixin):
@@ -115,7 +122,7 @@ class CustomClipTransformer(BaseEstimator, TransformerMixin):
         '''
         Clip large values.
         '''
-        print("Clipping large values...")
+        # print("Clipping large values...")
         X = np.clip(X, a_min=self.lower, a_max=self.upper)
         # print("Largest value:", max(X.max()) if isinstance(X, pd.DataFrame) else max(pd.DataFrame(X).max()))
         # print("Smallest value:", min(X.min()) if isinstance(X, pd.DataFrame) else min(pd.DataFrame(X).min()))
@@ -132,23 +139,19 @@ class CustomDropNaNColumnsTransformer(BaseEstimator, TransformerMixin):
         Find columns with NaN values.
         '''
         # print("Fitting CustomDropNaNColumnsTransformer...")
-        if isinstance(X, pd.DataFrame):
-            # print(X.isnull().any().sum())
-            # self.nan_columns = X.columns[X.isnull().any()].tolist()
-            # print("Columns with NaN values:", self.nan_columns)
-
-            # self.nan_columns = X.columns[X.isnull().sum() > 0].tolist()
-            self.nan_columns = X.columns[X.isnull().sum() > self.threshold*len(X)].tolist()
-
+        if isinstance(X, pd.DataFrame): self.nan_columns = (X.isnull().sum() > self.threshold*len(X))
+        else: self.nan_columns = np.array(X[X.isnull().sum() > self.threshold*len(X)]).reshape(1, -1)
+        # print(len(self.nan_columns))
         return self
 
     def transform(self, X):
         '''
         Drop columns with NaN values.
         '''
-        # return X.dropna(axis=1, thresh=int(self.threshold*len(X)))
         # print("Transforming with CustomDropNaNColumnsTransformer...")
-        if len(self.nan_columns) > 0: X = X.drop(columns=self.nan_columns)
+        if len(self.nan_columns) > 0: 
+            if isinstance(X, pd.DataFrame): X = X.loc[:, ~self.nan_columns]
+            else: X = X[:, ~self.nan_columns]
         return X
         # return X.dropna(axis=1, how='any')
 

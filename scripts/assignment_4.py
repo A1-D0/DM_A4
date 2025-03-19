@@ -2,7 +2,7 @@
 Description: 
 How to run: python assignment_4.py <filepath> <test_size> <save_pipeline>
 Authors: Bradyen Miller, Osvaldo Hernandez-Segura
-References: ChatGPT, Numpy documentation, Pandas documentation
+References: ChatGPT, Numpy documentation, Pandas documentation, Scikit-Learn documentation, joblib documentation
 '''
 import pandas as pd
 import numpy as np
@@ -15,12 +15,15 @@ from sklearn.dummy import DummyClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.linear_model import SGDClassifier
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.preprocessing import OneHotEncoder, StandardScaler
-from sklearn.compose import ColumnTransformer
-from sklearn.preprocessing import FunctionTransformer
-from transformers import CustomBestFeaturesTransformer, CustomImputerTransformer, CustomDropNaNColumnsTransformer, CustomClipTransformer, CustomReplaceInfNanWithZeroTransformer
+from sklearn.naive_bayes import GaussianNB
+from sklearn.cluster import KMeans
+
+
+from sklearn.preprocessing import StandardScaler
+from transformers import CustomBestFeaturesTransformer, CustomDropNaNColumnsTransformer, CustomClipTransformer, CustomReplaceInfNanWithZeroTransformer
 from sklearn.metrics import roc_auc_score, accuracy_score
 from sklearn.model_selection import train_test_split
+from joblib import Memory
 
 def get_X_y(data: pd.DataFrame, drop_X_columns: list, target: str | int)-> tuple:
     '''
@@ -43,29 +46,21 @@ def get_pipeline(X: pd.DataFrame)-> Pipeline:
     :param X: the input features.
     :return: the pipeline.
     '''
-    numerical_transformer = Pipeline(
-        steps=[
-                ("clipper_1", CustomClipTransformer()),
-                ("scaler", StandardScaler()),
-                # ("imputer", CustomImputerTransformer()),
-                # ("clipper_2", CustomClipTransformer())
-                ])
-
-    preprocessor = ColumnTransformer(
-        transformers=[  
-                        ("inf_nan", CustomReplaceInfNanWithZeroTransformer(), X.columns),
-                        # ("num", numerical_transformer, X.columns),
-                        ("clipper", CustomClipTransformer(), X.columns),
-                        ("scaler", StandardScaler(), X.columns)
-                        # ("rfecv", CustomBestFeaturesTransformer(), X.columns)
-                        ])
-
+    mem = Memory(location='cache_dir', verbose=0)
     pipeline = Pipeline(
-        steps=[("preprocessor", preprocessor),
-                ("classifier", None)])
+        steps=[ 
+                ("drop_nan", CustomDropNaNColumnsTransformer(threshold=0.6)),
+                ("inf_nan", CustomReplaceInfNanWithZeroTransformer()),
+                ("clipper", CustomClipTransformer()),
+                ("scaler", StandardScaler()),
+                ("rfecv", CustomBestFeaturesTransformer()),
+                ("classifier", None)
+                ],
+                memory=mem # cache transformers (to avoid fitting transformers multiple times)
+                )
     return pipeline
 
-def run_pipeline(data: pd.DataFrame)-> Pipeline:
+def run_pipeline(data: pd.DataFrame, classifiers: list)-> Pipeline:
     '''
     Run the pipeline.
 
@@ -73,16 +68,7 @@ def run_pipeline(data: pd.DataFrame)-> Pipeline:
     :return: the pipeline.
     '''
     X, y = get_X_y(data=data, drop_X_columns=['CID', 'Name', 'Inhibition'], target='Inhibition')
-
-    # for testing pipeline preprocessing steps
-    X = np.clip(X, a_min=-1e9, a_max=1e9)
-    X.replace([np.inf, -np.inf], np.nan, inplace=True)
-    X.fillna(0, inplace=True)
-
-    classifiers = [DummyClassifier(strategy='most_frequent'), SGDClassifier(), RandomForestClassifier(n_jobs=-1)]
-
     pipeline = get_pipeline(X)
-    
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
     output_path = os.path.join(os.pardir, "output")
@@ -94,7 +80,9 @@ def run_pipeline(data: pd.DataFrame)-> Pipeline:
         pipeline.set_params(classifier=classifiers[idx])
         pipeline.fit(X_train, y_train)
         predictions = pipeline.predict(X_test)
-        text = "%s: Accuracy: %.3f" % (pipeline.named_steps['classifier'].__class__.__name__, accuracy_score(y_test, predictions)) 
+        model_name = pipeline.named_steps['classifier'].__class__.__name__
+        text = "%s: Accuracy: %.3f\n" % (model_name, accuracy_score(y_test, predictions)) 
+        text += "%s: AUC: %.3f" % (model_name, roc_auc_score(y_test, predictions)) 
         print(text)
         write_to_file.write(text + "\n")
 
@@ -120,9 +108,15 @@ def main()-> None:
         print("Testing...")
         data = data.iloc[:test_size]
 
-    # utils.data_understanding(data, "data_quality_report.txt", save=False)
+    utils.data_understanding(data, "data_quality_report.txt", save=False)
 
-    pipeline = run_pipeline(data)
+    classifiers = [DummyClassifier(strategy='most_frequent'), 
+                   SGDClassifier(),
+                   GaussianNB(),
+                   KMeans()
+                ]
+
+    pipeline = run_pipeline(data, classifiers)
     if int(argv[2]) == 1: utils.save_pipeline_to_dump(pipeline, os.path.join(os.pardir, "output"), "modeling_pipeline")
 
 
