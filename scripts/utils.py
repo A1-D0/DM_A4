@@ -1,11 +1,28 @@
 '''
 Description: 
-Author: Bradyen Miller, Osvaldo Hernandez-Segura
+Authors: Bradyen Miller, Osvaldo Hernandez-Segura
 References: ChatGPT, Numpy documentation, Pandas documentation
 '''
 import pandas as pd
 import numpy as np
 import os
+import joblib
+
+from sklearn.pipeline import Pipeline
+
+def save_pipeline_to_dump(pipeline: Pipeline, output_path: str, file_name: str="pipeline")-> None:
+    '''
+    Save the pipeline to a dump file as a pkl file.
+
+    :param pipeline: the pipeline to save.
+    :param output_path: the path to save the pipeline.
+    :param file_name: the name of the file.
+    :return: None.
+    '''
+    dump_to_path = os.path.join(output_path, f"{file_name}.pkl")
+    joblib.dump(pipeline, dump_to_path)
+    print(f"Pipeline saved to {dump_to_path}")
+    return None
 
 def write_to_file(text: str, output_path: str)-> None:
     '''
