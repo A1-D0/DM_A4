@@ -54,3 +54,25 @@ def data_understanding(data: pd.DataFrame, output_path: str, save: bool=False)->
     text += f"Number of columns with missing values: {data.isnull().any(axis=0).sum()}\n\n" + f"{data.dtypes.to_string()}\n\n" + f"{data.describe().T.to_string()}\n"
     print(text)
     if save: write_to_file(text, output_path)
+
+def get_X_y(data: pd.DataFrame, drop_X_columns: list, target: str | int)-> tuple:
+    '''
+    Get the features and target. Returns X and y if the columns parameters are valid.
+
+    :param data: the data.
+    :param drop_X_columns: the columns to drop from the input features.
+    :param target: the target column.
+    :return: X and y.
+    '''
+    X, y = None, None
+    try:
+        X = data.drop(columns=drop_X_columns)
+    except:
+        print("Invalid columns to drop.")
+    if isinstance(data, pd.DataFrame):
+        if isinstance(target, int): y = data.iloc[:, target]
+        else: y = data[target]
+    else:
+        if isinstance(target, int): y = data[:, target]
+        else: print("Invalid target column for %s" % type(data))
+    return X, y

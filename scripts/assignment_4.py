@@ -5,7 +5,7 @@ Authors: Bradyen Miller, Osvaldo Hernandez-Segura
 References: ChatGPT, Numpy documentation, Pandas documentation, Scikit-Learn documentation, joblib documentation
 '''
 import pandas as pd
-import numpy as np
+# import numpy as np
 import os
 import sys
 import utils
@@ -14,30 +14,17 @@ from sklearn.pipeline import Pipeline
 from sklearn.dummy import DummyClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.linear_model import SGDClassifier
-from sklearn.ensemble import RandomForestClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.cluster import KMeans
-
+from sklearn.svm import SVC
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import LogisticRegression
 
 from sklearn.preprocessing import StandardScaler
 from transformers import CustomBestFeaturesTransformer, CustomDropNaNColumnsTransformer, CustomClipTransformer, CustomReplaceInfNanWithZeroTransformer
 from sklearn.metrics import roc_auc_score, accuracy_score
 from sklearn.model_selection import train_test_split
 from joblib import Memory
-
-def get_X_y(data: pd.DataFrame, drop_X_columns: list, target: str | int)-> tuple:
-    '''
-    Get the features and target.
-
-    :param data: the data.
-    :param drop_X_columns: the columns to drop from the input features.
-    :param target: the target column.
-    :return: X and y.
-    '''
-    X = data.drop(columns=drop_X_columns)
-    if isinstance(target, int): y = data.iloc[:, target]
-    else: y = data[target]
-    return X, y
 
 def get_pipeline(X: pd.DataFrame)-> Pipeline:
     '''
@@ -53,21 +40,20 @@ def get_pipeline(X: pd.DataFrame)-> Pipeline:
                 ("inf_nan", CustomReplaceInfNanWithZeroTransformer()),
                 ("clipper", CustomClipTransformer()),
                 ("scaler", StandardScaler()),
-                ("rfecv", CustomBestFeaturesTransformer()),
+                # ("rfecv", CustomBestFeaturesTransformer()), # comment this out for testing only; must be in final pipeline
                 ("classifier", None)
                 ],
                 memory=mem # cache transformers (to avoid fitting transformers multiple times)
                 )
     return pipeline
 
-def run_pipeline(data: pd.DataFrame, classifiers: list)-> Pipeline:
+def run_pipeline(X: pd.DataFrame, y: pd.DataFrame, classifiers: list)-> Pipeline:
     '''
     Run the pipeline.
 
     :param data: the data to process.
     :return: the pipeline.
     '''
-    X, y = get_X_y(data=data, drop_X_columns=['CID', 'Name', 'Inhibition'], target='Inhibition')
     pipeline = get_pipeline(X)
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
@@ -110,21 +96,22 @@ def main()-> None:
 
     utils.data_understanding(data, "data_quality_report.txt", save=False)
 
+    X, y = utils.get_X_y(data=data, drop_X_columns=['CID', 'Name', 'Inhibition'], target='Inhibition')
     classifiers = [DummyClassifier(strategy='most_frequent'), 
-                   SGDClassifier(),
+                   SGDClassifier(loss='log_loss'),
                    GaussianNB(),
-                   KMeans()
+                   SVC(probability=True),
+                   RandomForestClassifier(n_jobs=-1),
+                   LogisticRegression()
                 ]
-
-    pipeline = run_pipeline(data, classifiers)
+    pipeline = run_pipeline(X, y, classifiers)
     if int(argv[2]) == 1: utils.save_pipeline_to_dump(pipeline, os.path.join(os.pardir, "output"), "modeling_pipeline")
 
 
-    # predict on test data using pipeline
-    # unseen_data = pd.read_csv(argv[2], low_memory=False)
+    # predict on test data using pipeline (Cf. test_pipeline_predictions.py)
 
 
-    # get top 100 ranking and bottom 100 ranking
+    # get top 100 ranking and bottom 100 ranking (Cf. test_pipeline_predictions.py)
 
 
     exit(0)
