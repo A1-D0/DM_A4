@@ -1,0 +1,1553 @@
+data_quality_report.txt data description:
+(Rows, Columns): (300, 773)
+Duplicated rows: 0
+Number of rows with missing values: 11
+Number of columns with missing values: 540
+
+CID                        int64
+Name                      object
+Inhibition                 int64
+nAcid                      int64
+ALogP                    float64
+ALogp2                   float64
+AMR                      float64
+apol                     float64
+naAromAtom                 int64
+nAromBond                  int64
+nAtom                      int64
+nHeavyAtom                 int64
+nH                         int64
+nB                         int64
+nC                         int64
+nN                         int64
+nO                         int64
+nS                         int64
+nP                         int64
+nF                       float64
+nCl                      float64
+nBr                      float64
+nI                       float64
+nX                       float64
+ATSc1                    float64
+ATSc2                    float64
+ATSc3                    float64
+ATSc4                    float64
+ATSc5                    float64
+ATSm1                    float64
+ATSm2                    float64
+ATSm3                    float64
+ATSm4                    float64
+ATSm5                    float64
+ATSp1                    float64
+ATSp2                    float64
+ATSp3                    float64
+ATSp4                    float64
+ATSp5                    float64
+nBase                      int64
+BCUTw-1l                 float64
+BCUTw-1h                 float64
+BCUTc-1l                 float64
+BCUTc-1h                 float64
+BCUTp-1l                 float64
+BCUTp-1h                 float64
+nBonds                   float64
+nBonds2                  float64
+nBondsS                  float64
+nBondsS2                 float64
+nBondsS3                 float64
+nBondsD                  float64
+nBondsD2                 float64
+nBondsT                  float64
+nBondsQ                  float64
+nBondsM                  float64
+bpol                     float64
+C1SP1                      int64
+C2SP1                      int64
+C1SP2                      int64
+C2SP2                      int64
+C3SP2                      int64
+C1SP3                      int64
+C2SP3                      int64
+C3SP3                      int64
+C4SP3                      int64
+SCH-3                    float64
+SCH-4                    float64
+SCH-5                    float64
+SCH-6                    float64
+SCH-7                    float64
+VCH-3                    float64
+VCH-4                    float64
+VCH-5                    float64
+VCH-6                    float64
+VCH-7                    float64
+SC-3                     float64
+SC-4                     float64
+SC-5                     float64
+SC-6                     float64
+VC-3                     float64
+VC-4                     float64
+VC-5                     float64
+VC-6                     float64
+SPC-4                    float64
+SPC-5                    float64
+SPC-6                    float64
+VPC-4                    float64
+VPC-5                    float64
+VPC-6                    float64
+SP-0                     float64
+SP-1                     float64
+SP-2                     float64
+SP-3                     float64
+SP-4                     float64
+SP-5                     float64
+SP-6                     float64
+SP-7                     float64
+VP-0                     float64
+VP-1                     float64
+VP-2                     float64
+VP-3                     float64
+VP-4                     float64
+VP-5                     float64
+VP-6                     float64
+VP-7                     float64
+CrippenLogP              float64
+CrippenMR                float64
+ECCEN                      int64
+nHBd                     float64
+nwHBd                    float64
+nHBa                     float64
+nwHBa                    float64
+nHBint2                  float64
+nHBint3                  float64
+nHBint4                  float64
+nHBint5                  float64
+nHBint6                  float64
+nHBint7                  float64
+nHBint8                  float64
+nHBint9                  float64
+nHBint10                 float64
+nHsOH                    float64
+nHdNH                    float64
+nHsSH                    float64
+nHsNH2                   float64
+nHssNH                   float64
+nHaaNH                   float64
+nHsNH3p                  float64
+nHssNH2p                 float64
+nHsssNHp                 float64
+nHtCH                    float64
+nHdCH2                   float64
+nHdsCH                   float64
+nHaaCH                   float64
+nHCHnX                   float64
+nHCsats                  float64
+nHCsatu                  float64
+nHAvin                   float64
+nHother                  float64
+nHmisc                   float64
+nsLi                     float64
+nssBe                    float64
+nssssBem                 float64
+nsBH2                    float64
+nssBH                    float64
+nsssB                    float64
+nssssBm                  float64
+nsCH3                    float64
+ndCH2                    float64
+nssCH2                   float64
+ntCH                     float64
+ndsCH                    float64
+naaCH                    float64
+nsssCH                   float64
+nddC                     float64
+ntsC                     float64
+ndssC                    float64
+naasC                    float64
+naaaC                    float64
+nssssC                   float64
+nsNH3p                   float64
+nsNH2                    float64
+nssNH2p                  float64
+ndNH                     float64
+nssNH                    float64
+naaNH                    float64
+ntN                      float64
+nsssNHp                  float64
+ndsN                     float64
+naaN                     float64
+nsssN                    float64
+nddsN                    float64
+naasN                    float64
+nssssNp                  float64
+nsOH                     float64
+ndO                      float64
+nssO                     float64
+naaO                     float64
+naOm                     float64
+nsOm                     float64
+nsF                      float64
+nsSiH3                   float64
+nssSiH2                  float64
+nsssSiH                  float64
+nssssSi                  float64
+nsPH2                    float64
+nssPH                    float64
+nsssP                    float64
+ndsssP                   float64
+nddsP                    float64
+nsssssP                  float64
+nsSH                     float64
+ndS                      float64
+nssS                     float64
+naaS                     float64
+ndssS                    float64
+nddssS                   float64
+nssssssS                 float64
+nSm                      float64
+nsCl                     float64
+nsGeH3                   float64
+nssGeH2                  float64
+nsssGeH                  float64
+nssssGe                  float64
+nsAsH2                   float64
+nssAsH                   float64
+nsssAs                   float64
+ndsssAs                  float64
+nddsAs                   float64
+nsssssAs                 float64
+nsSeH                    float64
+ndSe                     float64
+nssSe                    float64
+naaSe                    float64
+ndssSe                   float64
+nssssssSe                float64
+nddssSe                  float64
+nsBr                     float64
+nsSnH3                   float64
+nssSnH2                  float64
+nsssSnH                  float64
+nssssSn                  float64
+nsI                      float64
+nsPbH3                   float64
+nssPbH2                  float64
+nsssPbH                  float64
+nssssPb                  float64
+SHBd                     float64
+SwHBd                    float64
+SHBa                     float64
+SwHBa                    float64
+SHBint2                  float64
+SHBint3                  float64
+SHBint4                  float64
+SHBint5                  float64
+SHBint6                  float64
+SHBint7                  float64
+SHBint8                  float64
+SHBint9                  float64
+SHBint10                 float64
+SHsOH                    float64
+SHdNH                    float64
+SHsSH                    float64
+SHsNH2                   float64
+SHssNH                   float64
+SHaaNH                   float64
+SHsNH3p                  float64
+SHssNH2p                 float64
+SHsssNHp                 float64
+SHtCH                    float64
+SHdCH2                   float64
+SHdsCH                   float64
+SHaaCH                   float64
+SHCHnX                   float64
+SHCsats                  float64
+SHCsatu                  float64
+SHAvin                   float64
+SHother                  float64
+SHmisc                   float64
+SsLi                     float64
+SssBe                    float64
+SssssBem                 float64
+SsBH2                    float64
+SssBH                    float64
+SsssB                    float64
+SssssBm                  float64
+SsCH3                    float64
+SdCH2                    float64
+SssCH2                   float64
+StCH                     float64
+SdsCH                    float64
+SaaCH                    float64
+SsssCH                   float64
+SddC                     float64
+StsC                     float64
+SdssC                    float64
+SaasC                    float64
+SaaaC                    float64
+SssssC                   float64
+SsNH3p                   float64
+SsNH2                    float64
+SssNH2p                  float64
+SdNH                     float64
+SssNH                    float64
+SaaNH                    float64
+StN                      float64
+SsssNHp                  float64
+SdsN                     float64
+SaaN                     float64
+SsssN                    float64
+SddsN                    float64
+SaasN                    float64
+SssssNp                  float64
+SsOH                     float64
+SdO                      float64
+SssO                     float64
+SaaO                     float64
+SaOm                     float64
+SsOm                     float64
+SsF                      float64
+SsSiH3                   float64
+SssSiH2                  float64
+SsssSiH                  float64
+SssssSi                  float64
+SsPH2                    float64
+SssPH                    float64
+SsssP                    float64
+SdsssP                   float64
+SddsP                    float64
+SsssssP                  float64
+SsSH                     float64
+SdS                      float64
+SssS                     float64
+SaaS                     float64
+SdssS                    float64
+SddssS                   float64
+SssssssS                 float64
+SSm                      float64
+SsCl                     float64
+SsGeH3                   float64
+SssGeH2                  float64
+SsssGeH                  float64
+SssssGe                  float64
+SsAsH2                   float64
+SssAsH                   float64
+SsssAs                   float64
+SdsssAs                  float64
+SddsAs                   float64
+SsssssAs                 float64
+SsSeH                    float64
+SdSe                     float64
+SssSe                    float64
+SaaSe                    float64
+SdssSe                   float64
+SssssssSe                float64
+SddssSe                  float64
+SsBr                     float64
+SsSnH3                   float64
+SssSnH2                  float64
+SsssSnH                  float64
+SssssSn                  float64
+SsI                      float64
+SsPbH3                   float64
+SssPbH2                  float64
+SsssPbH                  float64
+SssssPb                  float64
+minHBd                   float64
+minwHBd                  float64
+minHBa                   float64
+minwHBa                  float64
+minHBint2                float64
+minHBint3                float64
+minHBint4                float64
+minHBint5                float64
+minHBint6                float64
+minHBint7                float64
+minHBint8                float64
+minHBint9                float64
+minHBint10               float64
+minHsOH                  float64
+minHdNH                  float64
+minHsSH                  float64
+minHsNH2                 float64
+minHssNH                 float64
+minHaaNH                 float64
+minHsNH3p                float64
+minHssNH2p               float64
+minHsssNHp               float64
+minHtCH                  float64
+minHdCH2                 float64
+minHdsCH                 float64
+minHaaCH                 float64
+minHCHnX                 float64
+minHCsats                float64
+minHCsatu                float64
+minHAvin                 float64
+minHother                float64
+minHmisc                 float64
+minsLi                   float64
+minssBe                  float64
+minssssBem               float64
+minsBH2                  float64
+minssBH                  float64
+minsssB                  float64
+minssssBm                float64
+minsCH3                  float64
+mindCH2                  float64
+minssCH2                 float64
+mintCH                   float64
+mindsCH                  float64
+minaaCH                  float64
+minsssCH                 float64
+minddC                   float64
+mintsC                   float64
+mindssC                  float64
+minaasC                  float64
+minaaaC                  float64
+minssssC                 float64
+minsNH3p                 float64
+minsNH2                  float64
+minssNH2p                float64
+mindNH                   float64
+minssNH                  float64
+minaaNH                  float64
+mintN                    float64
+minsssNHp                float64
+mindsN                   float64
+minaaN                   float64
+minsssN                  float64
+minddsN                  float64
+minaasN                  float64
+minssssNp                float64
+minsOH                   float64
+mindO                    float64
+minssO                   float64
+minaaO                   float64
+minaOm                   float64
+minsOm                   float64
+minsF                    float64
+minsSiH3                 float64
+minssSiH2                float64
+minsssSiH                float64
+minssssSi                float64
+minsPH2                  float64
+minssPH                  float64
+minsssP                  float64
+mindsssP                 float64
+minddsP                  float64
+minsssssP                float64
+minsSH                   float64
+mindS                    float64
+minssS                   float64
+minaaS                   float64
+mindssS                  float64
+minddssS                 float64
+minssssssS               float64
+minSm                    float64
+minsCl                   float64
+minsGeH3                 float64
+minssGeH2                float64
+minsssGeH                float64
+minssssGe                float64
+minsAsH2                 float64
+minssAsH                 float64
+minsssAs                 float64
+mindsssAs                float64
+minddsAs                 float64
+minsssssAs               float64
+minsSeH                  float64
+mindSe                   float64
+minssSe                  float64
+minaaSe                  float64
+mindssSe                 float64
+minssssssSe              float64
+minddssSe                float64
+minsBr                   float64
+minsSnH3                 float64
+minssSnH2                float64
+minsssSnH                float64
+minssssSn                float64
+minsI                    float64
+minsPbH3                 float64
+minssPbH2                float64
+minsssPbH                float64
+minssssPb                float64
+maxHBd                   float64
+maxwHBd                  float64
+maxHBa                   float64
+maxwHBa                  float64
+maxHBint2                float64
+maxHBint3                float64
+maxHBint4                float64
+maxHBint5                float64
+maxHBint6                float64
+maxHBint7                float64
+maxHBint8                float64
+maxHBint9                float64
+maxHBint10               float64
+maxHsOH                  float64
+maxHdNH                  float64
+maxHsSH                  float64
+maxHsNH2                 float64
+maxHssNH                 float64
+maxHaaNH                 float64
+maxHsNH3p                float64
+maxHssNH2p               float64
+maxHsssNHp               float64
+maxHtCH                  float64
+maxHdCH2                 float64
+maxHdsCH                 float64
+maxHaaCH                 float64
+maxHCHnX                 float64
+maxHCsats                float64
+maxHCsatu                float64
+maxHAvin                 float64
+maxHother                float64
+maxHmisc                 float64
+maxsLi                   float64
+maxssBe                  float64
+maxssssBem               float64
+maxsBH2                  float64
+maxssBH                  float64
+maxsssB                  float64
+maxssssBm                float64
+maxsCH3                  float64
+maxdCH2                  float64
+maxssCH2                 float64
+maxtCH                   float64
+maxdsCH                  float64
+maxaaCH                  float64
+maxsssCH                 float64
+maxddC                   float64
+maxtsC                   float64
+maxdssC                  float64
+maxaasC                  float64
+maxaaaC                  float64
+maxssssC                 float64
+maxsNH3p                 float64
+maxsNH2                  float64
+maxssNH2p                float64
+maxdNH                   float64
+maxssNH                  float64
+maxaaNH                  float64
+maxtN                    float64
+maxsssNHp                float64
+maxdsN                   float64
+maxaaN                   float64
+maxsssN                  float64
+maxddsN                  float64
+maxaasN                  float64
+maxssssNp                float64
+maxsOH                   float64
+maxdO                    float64
+maxssO                   float64
+maxaaO                   float64
+maxaOm                   float64
+maxsOm                   float64
+maxsF                    float64
+maxsSiH3                 float64
+maxssSiH2                float64
+maxsssSiH                float64
+maxssssSi                float64
+maxsPH2                  float64
+maxssPH                  float64
+maxsssP                  float64
+maxdsssP                 float64
+maxddsP                  float64
+maxsssssP                float64
+maxsSH                   float64
+maxdS                    float64
+maxssS                   float64
+maxaaS                   float64
+maxdssS                  float64
+maxddssS                 float64
+maxssssssS               float64
+maxSm                    float64
+maxsCl                   float64
+maxsGeH3                 float64
+maxssGeH2                float64
+maxsssGeH                float64
+maxssssGe                float64
+maxsAsH2                 float64
+maxssAsH                 float64
+maxsssAs                 float64
+maxdsssAs                float64
+maxddsAs                 float64
+maxsssssAs               float64
+maxsSeH                  float64
+maxdSe                   float64
+maxssSe                  float64
+maxaaSe                  float64
+maxdssSe                 float64
+maxssssssSe              float64
+maxddssSe                float64
+maxsBr                   float64
+maxsSnH3                 float64
+maxssSnH2                float64
+maxsssSnH                float64
+maxssssSn                float64
+maxsI                    float64
+maxsPbH3                 float64
+maxssPbH2                float64
+maxsssPbH                float64
+maxssssPb                float64
+sumI                     float64
+hmax                     float64
+gmax                     float64
+hmin                     float64
+gmin                     float64
+LipoaffinityIndex        float64
+MAXDN                    float64
+MAXDP                    float64
+DELS                     float64
+MAXDN2                   float64
+MAXDP2                   float64
+DELS2                    float64
+ETA_Alpha                float64
+ETA_AlphaP               float64
+ETA_dAlpha_A             float64
+ETA_dAlpha_B             float64
+ETA_Epsilon_1            float64
+ETA_Epsilon_2            float64
+ETA_Epsilon_3            float64
+ETA_Epsilon_4            float64
+ETA_Epsilon_5            float64
+ETA_dEpsilon_A           float64
+ETA_dEpsilon_B           float64
+ETA_dEpsilon_C           float64
+ETA_dEpsilon_D           float64
+ETA_Psi_1                float64
+ETA_dPsi_A               float64
+ETA_dPsi_B               float64
+ETA_Shape_P              float64
+ETA_Shape_Y              float64
+ETA_Shape_X              float64
+ETA_Beta                 float64
+ETA_BetaP                float64
+ETA_Beta_s               float64
+ETA_BetaP_s              float64
+ETA_Beta_ns              float64
+ETA_BetaP_ns             float64
+ETA_dBeta                float64
+ETA_dBetaP               float64
+ETA_Beta_ns_d            float64
+ETA_BetaP_ns_d           float64
+ETA_Eta                  float64
+ETA_EtaP                 float64
+ETA_Eta_R                float64
+ETA_Eta_F                float64
+ETA_EtaP_F               float64
+ETA_Eta_L                float64
+ETA_EtaP_L               float64
+ETA_Eta_R_L              float64
+ETA_Eta_F_L              float64
+ETA_EtaP_F_L             float64
+ETA_Eta_B                float64
+ETA_EtaP_B               float64
+ETA_Eta_B_RC             float64
+ETA_EtaP_B_RC            float64
+FMF                      float64
+fragC                    float64
+nHBAcc                     int64
+nHBAcc2                    int64
+nHBAcc3                    int64
+nHBAcc_Lipinski            int64
+nHBDon                     int64
+nHBDon_Lipinski            int64
+HybRatio                 float64
+Kier1                    float64
+Kier2                    float64
+Kier3                    float64
+nAtomLC                    int64
+nAtomP                     int64
+nAtomLAC                   int64
+MLogP                    float64
+McGowan_Volume           float64
+MDEC-11                  float64
+MDEC-12                  float64
+MDEC-13                  float64
+MDEC-14                  float64
+MDEC-22                  float64
+MDEC-23                  float64
+MDEC-24                  float64
+MDEC-33                  float64
+MDEC-34                  float64
+MDEC-44                  float64
+MDEO-11                  float64
+MDEO-12                  float64
+MDEO-22                  float64
+MDEN-11                  float64
+MDEN-12                  float64
+MDEN-13                  float64
+MDEN-22                  float64
+MDEN-23                  float64
+MDEN-33                  float64
+MLFER_A                  float64
+MLFER_BH                 float64
+MLFER_BO                 float64
+MLFER_S                  float64
+MLFER_E                  float64
+MLFER_L                  float64
+PetitjeanNumber          float64
+nRing                    float64
+n3Ring                   float64
+n4Ring                   float64
+n5Ring                   float64
+n6Ring                   float64
+n7Ring                   float64
+n8Ring                   float64
+n9Ring                   float64
+n10Ring                  float64
+n11Ring                  float64
+n12Ring                  float64
+nG12Ring                 float64
+nFRing                   float64
+nF4Ring                  float64
+nF5Ring                  float64
+nF6Ring                  float64
+nF7Ring                  float64
+nF8Ring                  float64
+nF9Ring                  float64
+nF10Ring                 float64
+nF11Ring                 float64
+nF12Ring                 float64
+nFG12Ring                float64
+nTRing                   float64
+nT4Ring                  float64
+nT5Ring                  float64
+nT6Ring                  float64
+nT7Ring                  float64
+nT8Ring                  float64
+nT9Ring                  float64
+nT10Ring                 float64
+nT11Ring                 float64
+nT12Ring                 float64
+nTG12Ring                float64
+nHeteroRing              float64
+n3HeteroRing             float64
+n4HeteroRing             float64
+n5HeteroRing             float64
+n6HeteroRing             float64
+n7HeteroRing             float64
+n8HeteroRing             float64
+n9HeteroRing             float64
+n10HeteroRing            float64
+n11HeteroRing            float64
+n12HeteroRing            float64
+nG12HeteroRing           float64
+nFHeteroRing             float64
+nF4HeteroRing            float64
+nF5HeteroRing            float64
+nF6HeteroRing            float64
+nF7HeteroRing            float64
+nF8HeteroRing            float64
+nF9HeteroRing            float64
+nF10HeteroRing           float64
+nF11HeteroRing           float64
+nF12HeteroRing           float64
+nFG12HeteroRing          float64
+nTHeteroRing             float64
+nT4HeteroRing            float64
+nT5HeteroRing            float64
+nT6HeteroRing            float64
+nT7HeteroRing            float64
+nT8HeteroRing            float64
+nT9HeteroRing            float64
+nT10HeteroRing           float64
+nT11HeteroRing           float64
+nT12HeteroRing           float64
+nTG12HeteroRing          float64
+nRotB                    float64
+RotBFrac                 float64
+nRotBt                   float64
+RotBtFrac                float64
+LipinskiFailures         float64
+topoRadius               float64
+topoDiameter             float64
+topoShape                float64
+globalTopoChargeIndex    float64
+TopoPSA                  float64
+VABC                     float64
+VAdjMat                  float64
+MW                       float64
+WTPT-1                   float64
+WTPT-2                   float64
+WTPT-3                   float64
+WTPT-4                   float64
+WTPT-5                   float64
+WPATH                    float64
+WPOL                     float64
+XLogP                    float64
+Zagreb                   float64
+
+                       count           mean           std           min          25%           50%            75%            max
+CID                    300.0   4.039663e+06  1.086142e+07  8.920000e+02  4776.750000  15291.000000  714124.500000   8.997116e+07
+Inhibition             300.0   6.000000e-02  2.378836e-01  0.000000e+00     0.000000      0.000000       0.000000   1.000000e+00
+nAcid                  300.0   1.600000e-01  4.849577e-01  0.000000e+00     0.000000      0.000000       0.000000   4.000000e+00
+ALogP                  295.0  -2.458376e-01  2.094034e+00 -1.200190e+01    -1.088250      0.013900       1.090350   4.472500e+00
+ALogp2                 295.0   4.430549e+00  1.250654e+01  0.000000e+00     0.279050      1.188318       3.745675   1.440456e+02
+AMR                    295.0   8.530781e+01  4.605747e+01  0.000000e+00    54.806750     82.664600     103.931950   5.095096e+02
+apol                   300.0   4.987112e+01  3.383533e+01  2.135586e+00    30.116197     46.597842      60.247049   3.446493e+02
+naAromAtom             300.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nAromBond              300.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nAtom                  300.0   4.369667e+01  2.894819e+01  3.000000e+00    26.000000     40.000000      53.000000   2.760000e+02
+nHeavyAtom             300.0   2.251333e+01  1.382656e+01  1.000000e+00    14.000000     20.000000      27.000000   1.360000e+02
+nH                     300.0   2.118333e+01  1.577633e+01  2.000000e+00    12.000000     18.000000      26.000000   1.400000e+02
+nB                     300.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nC                     300.0   1.643333e+01  9.993922e+00  0.000000e+00    10.000000     16.000000      21.000000   9.900000e+01
+nN                     300.0   1.790000e+00  2.330380e+00  0.000000e+00     0.000000      1.000000       2.000000   2.000000e+01
+nO                     300.0   3.653333e+00  3.526273e+00  0.000000e+00     1.000000      3.000000       5.000000   2.800000e+01
+nS                     300.0   2.300000e-01  6.151107e-01  0.000000e+00     0.000000      0.000000       0.000000   5.000000e+00
+nP                     300.0   2.333333e-02  1.903760e-01  0.000000e+00     0.000000      0.000000       0.000000   2.000000e+00
+nF                     300.0   6.333333e-02  3.261033e-01  0.000000e+00     0.000000      0.000000       0.000000   3.000000e+00
+nCl                    300.0   2.866667e-01  7.067441e-01  0.000000e+00     0.000000      0.000000       0.000000   6.000000e+00
+nBr                    300.0   1.333333e-02  1.148893e-01  0.000000e+00     0.000000      0.000000       0.000000   1.000000e+00
+nI                     300.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nX                     300.0   3.633333e-01  7.615261e-01  0.000000e+00     0.000000      0.000000       0.000000   6.000000e+00
+ATSc1                  300.0   5.339172e-01  4.862926e-01  0.000000e+00     0.229244      0.396540       0.695534   3.960837e+00
+ATSc2                  300.0  -2.461660e-01  2.334578e-01 -1.784189e+00    -0.326133     -0.186105      -0.098259   2.081668e-17
+ATSc3                  300.0  -3.029107e-02  1.466790e-01 -7.207567e-01    -0.085661     -0.024404       0.023232   6.387873e-01
+ATSc4                  300.0   4.390615e-02  2.194485e-01 -6.756774e-01    -0.041049      0.010582       0.118326   1.565265e+00
+ATSc5                  300.0  -5.055342e-02  2.623311e-01 -2.512974e+00    -0.104301     -0.006771       0.028450   8.129828e-01
+ATSm1                  300.0   3.046454e+01  1.967976e+01  1.774469e+00    18.546153     26.174555      37.494528   1.834025e+02
+ATSm2                  300.0   2.801794e+01  1.765288e+01  0.000000e+00    17.743436     24.612366      34.203435   1.633299e+02
+ATSm3                  300.0   4.091423e+01  2.603487e+01  0.000000e+00    24.298406     35.804718      51.440614   2.226412e+02
+ATSm4                  300.0   4.479176e+01  3.122807e+01  0.000000e+00    23.582113     37.979836      57.405445   2.471975e+02
+ATSm5                  300.0   4.229324e+01  3.461220e+01  0.000000e+00    18.081365     33.248744      56.581456   2.662224e+02
+ATSp1                  300.0   1.564233e+03  1.090322e+03  2.067844e+00   783.731610   1361.152249    2068.094105   9.677473e+03
+ATSp2                  300.0   1.854770e+03  1.320902e+03  0.000000e+00   881.433975   1590.943114    2439.586226   1.118468e+04
+ATSp3                  300.0   2.671203e+03  2.006626e+03  0.000000e+00  1163.463903   2173.298634    3667.702695   1.524982e+04
+ATSp4                  300.0   2.794888e+03  2.327922e+03  0.000000e+00  1043.751965   2186.283416    3811.266173   1.633793e+04
+ATSp5                  300.0   2.448657e+03  2.339717e+03  0.000000e+00   730.448171   1859.530060    3301.883355   1.729509e+04
+nBase                  300.0   6.100000e-01  1.105429e+00  0.000000e+00     0.000000      0.000000       1.000000   1.200000e+01
+BCUTw-1l               300.0   1.190758e+01  2.429822e-01  1.179000e+01    11.850000     11.890000      11.900000   1.599491e+01
+BCUTw-1h               300.0   2.260855e+01  1.064636e+01  1.400308e+01    15.995924     15.998942      31.972072   7.891834e+01
+BCUTc-1l               300.0  -3.439391e-01  4.466197e-02 -4.194647e-01    -0.386267     -0.358272      -0.308573  -1.968128e-01
+BCUTc-1h               300.0   2.321766e-01  1.076316e-01 -4.110002e-01     0.152021      0.245601       0.301021   6.285196e-01
+BCUTp-1l               300.0   4.708330e+00  9.601169e-01 -1.000000e-03     4.195364      4.701595       5.122562   7.627660e+00
+BCUTp-1h               300.0   1.065620e+01  1.781826e+00  1.438000e+00     9.195225     10.697403      12.066889   1.532444e+01
+nBonds                 300.0   2.395667e+01  1.467718e+01  0.000000e+00    15.000000     22.000000      29.250000   1.430000e+02
+nBonds2                300.0   4.514000e+01  2.971999e+01  2.000000e+00    27.000000     42.000000      55.250000   2.830000e+02
+nBondsS                300.0   3.991333e+01  2.809966e+01  2.000000e+00    23.000000     35.500000      48.000000   2.510000e+02
+nBondsS2               300.0   3.991333e+01  2.809966e+01  2.000000e+00    23.000000     35.500000      48.000000   2.510000e+02
+nBondsS3               300.0   1.873000e+01  1.273621e+01  0.000000e+00    11.000000     16.000000      24.000000   1.110000e+02
+nBondsD                300.0   5.200000e+00  3.299944e+00  0.000000e+00     3.000000      5.000000       7.000000   3.200000e+01
+nBondsD2               300.0   5.200000e+00  3.299944e+00  0.000000e+00     3.000000      5.000000       7.000000   3.200000e+01
+nBondsT                300.0   2.666667e-02  1.613765e-01  0.000000e+00     0.000000      0.000000       0.000000   1.000000e+00
+nBondsQ                300.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nBondsM                300.0   5.226667e+00  3.283987e+00  0.000000e+00     3.000000      5.000000       7.000000   3.200000e+01
+bpol                   300.0   2.888534e+01  2.095140e+01  2.704140e-01    16.064173     26.420140      33.747184   1.815770e+02
+C1SP1                  300.0   2.666667e-02  1.613765e-01  0.000000e+00     0.000000      0.000000       0.000000   1.000000e+00
+C2SP1                  300.0   2.666667e-02  1.613765e-01  0.000000e+00     0.000000      0.000000       0.000000   1.000000e+00
+C1SP2                  300.0   1.196667e+00  1.894718e+00  0.000000e+00     0.000000      1.000000       2.000000   1.900000e+01
+C2SP2                  300.0   5.586667e+00  4.038588e+00  0.000000e+00     3.000000      5.000000       9.000000   2.000000e+01
+C3SP2                  300.0   1.316667e+00  1.322454e+00  0.000000e+00     0.000000      1.000000       2.000000   8.000000e+00
+C1SP3                  300.0   2.656667e+00  3.010370e+00  0.000000e+00     1.000000      2.000000       4.000000   2.400000e+01
+C2SP3                  300.0   3.483333e+00  4.792314e+00  0.000000e+00     0.000000      2.000000       5.000000   2.700000e+01
+C3SP3                  300.0   1.016667e+00  1.708641e+00  0.000000e+00     0.000000      0.000000       1.000000   8.000000e+00
+C4SP3                  300.0   2.833333e-01  6.566273e-01  0.000000e+00     0.000000      0.000000       0.000000   3.000000e+00
+SCH-3                  300.0   3.999687e-03  3.097455e-02  0.000000e+00     0.000000      0.000000       0.000000   2.886751e-01
+SCH-4                  300.0   1.148520e-02  4.494779e-02  0.000000e+00     0.000000      0.000000       0.000000   3.800398e-01
+SCH-5                  300.0   6.704968e-02  1.115244e-01  0.000000e+00     0.000000      0.000000       0.086556   5.945847e-01
+SCH-6                  300.0   2.825191e-01  2.483729e-01  0.000000e+00     0.092786      0.204124       0.412078   1.150822e+00
+SCH-7                  300.0   5.380615e-01  5.038432e-01  0.000000e+00     0.175366      0.351821       0.788082   2.282627e+00
+VCH-3                  300.0   3.437503e-03  2.732848e-02  0.000000e+00     0.000000      0.000000       0.000000   2.886751e-01
+VCH-4                  300.0   8.601678e-03  3.592650e-02  0.000000e+00     0.000000      0.000000       0.000000   3.484617e-01
+VCH-5                  300.0   4.120318e-02  7.066951e-02  0.000000e+00     0.000000      0.000000       0.072169   3.216446e-01
+VCH-6                  300.0   1.542193e-01  1.764161e-01  0.000000e+00     0.032075      0.068403       0.215297   9.434097e-01
+VCH-7                  300.0   2.751025e-01  3.528196e-01  0.000000e+00     0.039782      0.106301       0.345778   1.876621e+00
+SC-3                   300.0   1.988400e+00  1.559676e+00  0.000000e+00     0.975343      1.535697       2.548561   1.382634e+01
+SC-4                   300.0   1.150665e-01  1.954604e-01  0.000000e+00     0.000000      0.000000       0.204124   1.767767e+00
+SC-5                   300.0   6.438467e-01  6.449617e-01  0.000000e+00     0.191638      0.450140       0.839648   3.362129e+00
+SC-6                   300.0   1.024855e-01  2.047994e-01  0.000000e+00     0.000000      0.000000       0.117851   1.310660e+00
+VC-3                   300.0   1.108052e+00  9.427995e-01  0.000000e+00     0.431611      0.749129       1.607007   6.287557e+00
+VC-4                   300.0   7.445187e-02  1.305447e-01  0.000000e+00     0.000000      0.000000       0.102062   8.838835e-01
+VC-5                   300.0   2.793217e-01  3.659220e-01  0.000000e+00     0.054029      0.123116       0.352139   1.737064e+00
+VC-6                   300.0   4.855564e-02  1.037219e-01  0.000000e+00     0.000000      0.000000       0.033641   5.407733e-01
+SPC-4                  300.0   4.434580e+00  3.370770e+00  0.000000e+00     2.075025      3.442598       5.759155   2.235363e+01
+SPC-5                  300.0   7.058764e+00  5.754467e+00  0.000000e+00     2.835527      5.331112       9.131450   3.244870e+01
+SPC-6                  300.0   9.913950e+00  8.921880e+00  0.000000e+00     3.454353      6.874388      13.143516   4.469053e+01
+VPC-4                  300.0   2.250958e+00  2.063859e+00  0.000000e+00     0.804300      1.368825       3.314979   9.356385e+00
+VPC-5                  300.0   3.301739e+00  3.409808e+00  0.000000e+00     0.935059      1.778061       4.970391   1.483154e+01
+VPC-6                  300.0   4.111054e+00  4.750148e+00  0.000000e+00     0.865969      2.075911       5.920160   2.260283e+01
+SP-0                   300.0   1.642602e+01  1.010715e+01  0.000000e+00    10.807337     14.514261      19.378269   1.000597e+02
+SP-1                   300.0   1.065783e+01  6.456598e+00  0.000000e+00     6.773504      9.673122      12.704815   6.444483e+01
+SP-2                   300.0   9.940228e+00  6.261535e+00  0.000000e+00     6.180436      8.655910      12.121803   5.967051e+01
+SP-3                   300.0   8.104325e+00  5.112416e+00  0.000000e+00     4.659170      7.083471      10.204099   4.577031e+01
+SP-4                   300.0   6.556747e+00  4.311182e+00  0.000000e+00     3.322683      5.856765       8.607392   3.692924e+01
+SP-5                   300.0   5.082913e+00  3.549438e+00  0.000000e+00     2.470814      4.526608       6.998601   2.889025e+01
+SP-6                   300.0   3.486189e+00  2.641042e+00  0.000000e+00     1.397949      2.948808       5.043376   1.835354e+01
+SP-7                   300.0   2.438049e+00  2.059397e+00  0.000000e+00     0.809379      1.949809       3.626071   1.364062e+01
+VP-0                   300.0   1.333371e+01  8.156839e+00  5.000000e-01     8.453438     12.371326      16.204961   8.108342e+01
+VP-1                   300.0   7.850109e+00  4.935163e+00  0.000000e+00     4.748938      7.370370       9.833932   4.695366e+01
+VP-2                   300.0   6.400877e+00  4.249742e+00  0.000000e+00     3.579363      5.536485       8.370434   3.821103e+01
+VP-3                   300.0   4.723490e+00  3.323764e+00  0.000000e+00     2.249498      4.016998       6.500855   2.358255e+01
+VP-4                   300.0   3.448901e+00  2.634185e+00  0.000000e+00     1.413208      2.737533       4.840488   1.625318e+01
+VP-5                   300.0   2.396068e+00  1.993405e+00  0.000000e+00     0.814336      1.772859       3.387646   1.039553e+01
+VP-6                   300.0   1.517029e+00  1.453064e+00  0.000000e+00     0.376745      0.966941       2.115372   7.002334e+00
+VP-7                   300.0   9.723695e-01  1.064747e+00  0.000000e+00     0.179006      0.571161       1.288781   5.164768e+00
+CrippenLogP            300.0   1.914110e+00  2.746284e+00 -2.061161e+01     0.460217      2.300185       3.605123   7.807700e+00
+CrippenMR              300.0   8.745121e+01  5.327783e+01  3.613800e+00    55.838150     81.567100     103.132975   5.755040e+02
+ECCEN                  300.0  -2.997774e+07  2.459347e+08 -2.129542e+09   152.250000    310.500000     544.500000   1.050327e+09
+nHBd                   290.0   1.968966e+00  2.452822e+00  0.000000e+00     1.000000      1.000000       2.000000   2.100000e+01
+nwHBd                  290.0   5.862069e-02  2.881960e-01  0.000000e+00     0.000000      0.000000       0.000000   2.000000e+00
+nHBa                   290.0   5.113793e+00  4.117330e+00  0.000000e+00     3.000000      4.000000       7.000000   3.700000e+01
+nwHBa                  290.0   8.275862e+00  5.335113e+00  0.000000e+00     6.000000      7.000000      12.000000   4.800000e+01
+nHBint2                290.0   8.000000e-01  1.703243e+00  0.000000e+00     0.000000      0.000000       1.000000   1.600000e+01
+nHBint3                290.0   1.893103e+00  4.382920e+00  0.000000e+00     0.000000      0.000000       2.000000   4.700000e+01
+nHBint4                290.0   1.396552e+00  3.194609e+00  0.000000e+00     0.000000      0.000000       1.000000   2.100000e+01
+nHBint5                290.0   1.255172e+00  3.290501e+00  0.000000e+00     0.000000      0.000000       1.000000   2.600000e+01
+nHBint6                290.0   1.875862e+00  4.851972e+00  0.000000e+00     0.000000      0.000000       2.000000   5.600000e+01
+nHBint7                290.0   1.086207e+00  2.363831e+00  0.000000e+00     0.000000      0.000000       1.000000   1.700000e+01
+nHBint8                290.0   9.379310e-01  3.346683e+00  0.000000e+00     0.000000      0.000000       0.000000   2.600000e+01
+nHBint9                290.0   1.037931e+00  4.714178e+00  0.000000e+00     0.000000      0.000000       0.000000   5.200000e+01
+nHBint10               290.0   6.586207e-01  2.339079e+00  0.000000e+00     0.000000      0.000000       0.000000   2.100000e+01
+nHsOH                  290.0   1.120690e+00  1.707682e+00  0.000000e+00     0.000000      1.000000       2.000000   1.100000e+01
+nHdNH                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nHsSH                  290.0   1.034483e-02  1.311246e-01  0.000000e+00     0.000000      0.000000       0.000000   2.000000e+00
+nHsNH2                 290.0   3.310345e-01  7.209679e-01  0.000000e+00     0.000000      0.000000       0.750000   6.000000e+00
+nHssNH                 290.0   4.793103e-01  1.467498e+00  0.000000e+00     0.000000      0.000000       1.000000   2.000000e+01
+nHaaNH                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nHsNH3p                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nHssNH2p               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nHsssNHp               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nHtCH                  290.0   2.758621e-02  1.640671e-01  0.000000e+00     0.000000      0.000000       0.000000   1.000000e+00
+nHdCH2                 290.0   1.034483e-02  1.013570e-01  0.000000e+00     0.000000      0.000000       0.000000   1.000000e+00
+nHdsCH                 290.0   4.196552e+00  3.492848e+00  0.000000e+00     1.250000      4.000000       6.000000   2.100000e+01
+nHaaCH                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nHCHnX                 290.0   5.862069e-02  2.881960e-01  0.000000e+00     0.000000      0.000000       0.000000   2.000000e+00
+nHCsats                290.0   6.100000e+00  7.435094e+00  0.000000e+00     0.000000      4.000000       8.000000   5.000000e+01
+nHCsatu                290.0   1.551724e+00  2.091112e+00  0.000000e+00     0.000000      1.000000       2.000000   1.900000e+01
+nHAvin                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nHother                290.0   4.206897e+00  3.491753e+00  0.000000e+00     1.250000      4.000000       6.000000   2.100000e+01
+nHmisc                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nsLi                   290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nssBe                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nssssBem               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nsBH2                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nssBH                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nsssB                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nssssBm                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nsCH3                  290.0   1.793103e+00  2.173755e+00  0.000000e+00     0.000000      1.000000       3.000000   1.800000e+01
+ndCH2                  290.0   1.034483e-02  1.013570e-01  0.000000e+00     0.000000      0.000000       0.000000   1.000000e+00
+nssCH2                 290.0   3.268966e+00  3.627567e+00  0.000000e+00     0.000000      2.000000       5.000000   1.900000e+01
+ntCH                   290.0   2.758621e-02  1.640671e-01  0.000000e+00     0.000000      0.000000       0.000000   1.000000e+00
+ndsCH                  290.0   4.196552e+00  3.492848e+00  0.000000e+00     1.250000      4.000000       6.000000   2.100000e+01
+naaCH                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nsssCH                 290.0   2.127586e+00  3.610001e+00  0.000000e+00     0.000000      1.000000       3.000000   2.200000e+01
+nddC                   290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+ntsC                   290.0   2.758621e-02  1.640671e-01  0.000000e+00     0.000000      0.000000       0.000000   1.000000e+00
+ndssC                  290.0   4.013793e+00  2.904444e+00  0.000000e+00     2.000000      3.500000       5.000000   2.700000e+01
+naasC                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+naaaC                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nssssC                 290.0   5.827586e-01  1.059663e+00  0.000000e+00     0.000000      0.000000       1.000000   5.000000e+00
+nsNH3p                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nsNH2                  290.0   3.310345e-01  7.209679e-01  0.000000e+00     0.000000      0.000000       0.750000   6.000000e+00
+nssNH2p                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+ndNH                   290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nssNH                  290.0   4.793103e-01  1.467498e+00  0.000000e+00     0.000000      0.000000       1.000000   2.000000e+01
+naaNH                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+ntN                    290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nsssNHp                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+ndsN                   290.0   3.275862e-01  8.019857e-01  0.000000e+00     0.000000      0.000000       0.000000   5.000000e+00
+naaN                   290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nsssN                  290.0   5.034483e-01  7.725761e-01  0.000000e+00     0.000000      0.000000       1.000000   4.000000e+00
+nddsN                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+naasN                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nssssNp                290.0   3.793103e-02  2.395408e-01  0.000000e+00     0.000000      0.000000       0.000000   3.000000e+00
+nsOH                   290.0   1.120690e+00  1.707682e+00  0.000000e+00     0.000000      1.000000       2.000000   1.100000e+01
+ndO                    290.0   1.389655e+00  1.724010e+00  0.000000e+00     0.000000      1.000000       2.000000   1.600000e+01
+nssO                   290.0   8.206897e-01  1.417483e+00  0.000000e+00     0.000000      0.000000       1.000000   1.000000e+01
+naaO                   290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+naOm                   290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nsOm                   290.0   1.551724e-01  4.323319e-01  0.000000e+00     0.000000      0.000000       0.000000   2.000000e+00
+nsF                    290.0   6.551724e-02  3.314808e-01  0.000000e+00     0.000000      0.000000       0.000000   3.000000e+00
+nsSiH3                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nssSiH2                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nsssSiH                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nssssSi                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nsPH2                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nssPH                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nsssP                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+ndsssP                 290.0   2.068966e-02  1.848581e-01  0.000000e+00     0.000000      0.000000       0.000000   2.000000e+00
+nddsP                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nsssssP                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nsSH                   290.0   1.034483e-02  1.311246e-01  0.000000e+00     0.000000      0.000000       0.000000   2.000000e+00
+ndS                    290.0   2.413793e-02  1.748062e-01  0.000000e+00     0.000000      0.000000       0.000000   2.000000e+00
+nssS                   290.0   1.172414e-01  3.812826e-01  0.000000e+00     0.000000      0.000000       0.000000   3.000000e+00
+naaS                   290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+ndssS                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nddssS                 290.0   6.551724e-02  3.099010e-01  0.000000e+00     0.000000      0.000000       0.000000   2.000000e+00
+nssssssS               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nSm                    290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nsCl                   290.0   2.862069e-01  7.137911e-01  0.000000e+00     0.000000      0.000000       0.000000   6.000000e+00
+nsGeH3                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nssGeH2                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nsssGeH                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nssssGe                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nsAsH2                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nssAsH                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nsssAs                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+ndsssAs                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nddsAs                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nsssssAs               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nsSeH                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+ndSe                   290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nssSe                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+naaSe                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+ndssSe                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nssssssSe              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nddssSe                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nsBr                   290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nsSnH3                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nssSnH2                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nsssSnH                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nssssSn                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nsI                    290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nsPbH3                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nssPbH2                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nsssPbH                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nssssPb                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SHBd                   290.0   8.527798e-01  9.580398e-01 -4.110720e-02     0.110705      0.632419       1.142638   6.023153e+00
+SwHBd                  290.0   2.833600e-02  1.366833e-01  0.000000e+00     0.000000      0.000000       0.000000   9.349314e-01
+SHBa                   290.0   3.746662e+01  3.588828e+01 -8.339712e-01    15.953716     28.909655      46.734356   2.949723e+02
+SwHBa                  290.0   9.278566e+00  8.731322e+00 -4.910114e+00     2.498513      7.594673      14.516441   4.129714e+01
+SHBint2                290.0   3.829603e+00  7.603058e+00  0.000000e+00     0.000000      0.000000       5.650766   6.289436e+01
+SHBint3                290.0   4.818578e+00  1.101099e+01 -1.148039e+00     0.000000      0.000000       4.990017   8.220462e+01
+SHBint4                290.0   4.478347e+00  1.031722e+01 -9.296053e-01     0.000000      0.000000       3.564716   6.060241e+01
+SHBint5                290.0   3.514887e+00  9.942718e+00 -2.063247e+00     0.000000      0.000000       0.958504   8.993603e+01
+SHBint6                290.0   5.466588e+00  1.224002e+01 -1.178013e+00     0.000000      0.000000       5.522943   1.021953e+02
+SHBint7                290.0   2.904131e+00  6.917684e+00 -5.173784e+00     0.000000      0.000000       1.349511   4.644801e+01
+SHBint8                290.0   2.840464e+00  1.015443e+01 -2.656088e+00     0.000000      0.000000       0.000000   7.744868e+01
+SHBint9                290.0   2.986830e+00  1.288974e+01 -6.608791e-01     0.000000      0.000000       0.000000   1.282288e+02
+SHBint10               290.0   1.710916e+00  6.432425e+00 -1.297538e+00     0.000000      0.000000       0.000000   5.209858e+01
+SHsOH                  290.0   4.711248e-01  6.897077e-01 -4.110720e-02     0.000000      0.033958       0.692314   3.988736e+00
+SHdNH                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SHsSH                  290.0   2.820429e-03  3.410132e-02  0.000000e+00     0.000000      0.000000       0.000000   4.530350e-01
+SHsNH2                 290.0   1.793818e-01  3.807629e-01  0.000000e+00     0.000000      0.000000       0.190937   2.603675e+00
+SHssNH                 290.0   1.865063e-01  4.628771e-01  0.000000e+00     0.000000      0.000000       0.329547   5.566738e+00
+SHaaNH                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SHsNH3p                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SHssNH2p               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SHsssNHp               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SHtCH                  290.0   1.294645e-02  7.730127e-02  0.000000e+00     0.000000      0.000000       0.000000   5.763970e-01
+SHdCH2                 290.0   4.417294e-03  4.359759e-02  0.000000e+00     0.000000      0.000000       0.000000   4.789561e-01
+SHdsCH                 290.0   2.107826e+00  1.712244e+00  0.000000e+00     0.746973      1.937663       3.189025   1.089499e+01
+SHaaCH                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SHCHnX                 290.0   2.833600e-02  1.366833e-01  0.000000e+00     0.000000      0.000000       0.000000   9.349314e-01
+SHCsats                290.0   3.351250e+00  4.815833e+00  0.000000e+00     0.000000      2.106643       4.362252   3.553235e+01
+SHCsatu                290.0   1.029113e+00  1.708804e+00  0.000000e+00     0.000000      0.663924       1.412101   1.807538e+01
+SHAvin                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SHother                290.0   2.112243e+00  1.710873e+00  0.000000e+00     0.746973      1.937663       3.189025   1.089499e+01
+SHmisc                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SsLi                   290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SssBe                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SssssBem               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SsBH2                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SssBH                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SsssB                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SssssBm                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SsCH3                  290.0   3.391100e+00  4.026476e+00  0.000000e+00     0.000000      2.172377       4.750827   3.072591e+01
+SdCH2                  290.0   4.015736e-02  3.943455e-01  0.000000e+00     0.000000      0.000000       0.000000   4.239818e+00
+SssCH2                 290.0   2.305032e+00  3.535386e+00 -3.069382e+00     0.000000      0.659617       4.041851   2.126304e+01
+StCH                   290.0   1.576926e-01  9.386289e-01  0.000000e+00     0.000000      0.000000       0.000000   6.016463e+00
+SdsCH                  290.0   7.730280e+00  6.999742e+00  0.000000e+00     2.124713      5.974802      11.117017   3.665996e+01
+SaaCH                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SsssCH                 290.0  -1.047815e+00  3.759064e+00 -2.405050e+01    -0.663227      0.000000       0.000000   3.956068e+00
+SddC                   290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+StsC                   290.0   7.658328e-02  4.558023e-01  0.000000e+00     0.000000      0.000000       0.000000   2.967018e+00
+SdssC                  290.0   1.273852e+00  2.872337e+00 -1.233826e+01    -0.200095      0.977973       2.770070   1.137341e+01
+SaasC                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SaaaC                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SssssC                 290.0  -4.893169e-01  1.330817e+00 -7.891720e+00    -0.131748      0.000000       0.000000   9.033565e-01
+SsNH3p                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SsNH2                  290.0   1.810805e+00  4.067803e+00  0.000000e+00     0.000000      0.000000       3.218750   3.563653e+01
+SssNH2p                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SdNH                   290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SssNH                  290.0   1.341456e+00  4.098358e+00  0.000000e+00     0.000000      0.000000       2.627880   5.671910e+01
+SaaNH                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+StN                    290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SsssNHp                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SdsN                   290.0   1.312729e+00  3.237946e+00  0.000000e+00     0.000000      0.000000       0.000000   1.970211e+01
+SaaN                   290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SsssN                  290.0   9.415114e-01  1.536166e+00  0.000000e+00     0.000000      0.000000       1.778991   9.875000e+00
+SddsN                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SaasN                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SssssNp                290.0   3.396199e-02  2.316310e-01  0.000000e+00     0.000000      0.000000       0.000000   3.202464e+00
+SsOH                   290.0   1.116340e+01  1.762442e+01  0.000000e+00     0.000000      7.721505      17.767225   1.182161e+02
+SdO                    290.0   1.664332e+01  2.255332e+01  0.000000e+00     0.000000     11.492344      24.809710   2.285459e+02
+SssO                   290.0   4.548498e+00  8.271605e+00  0.000000e+00     0.000000      0.000000       5.701699   6.413860e+01
+SaaO                   290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SaOm                   290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SsOm                   290.0   1.704759e+00  4.745278e+00  0.000000e+00     0.000000      0.000000       0.000000   2.372889e+01
+SsF                    290.0   9.838788e-01  4.921856e+00  0.000000e+00     0.000000      0.000000       0.000000   3.859281e+01
+SsSiH3                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SssSiH2                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SsssSiH                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SssssSi                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SsPH2                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SssPH                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SsssP                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SdsssP                 290.0  -1.310868e-01  1.219491e+00 -1.392443e+01     0.000000      0.000000       0.000000   0.000000e+00
+SddsP                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SsssssP                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SsSH                   290.0   7.902831e-03  1.111734e-01  0.000000e+00     0.000000      0.000000       0.000000   1.840098e+00
+SdS                    290.0   1.921922e-02  1.557158e-01  0.000000e+00     0.000000      0.000000       0.000000   2.183227e+00
+SssS                   290.0  -1.760482e-01  5.716336e-01 -4.107096e+00     0.000000      0.000000       0.000000   0.000000e+00
+SaaS                   290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SdssS                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SddssS                 290.0  -3.485792e-01  1.665236e+00 -1.204761e+01     0.000000      0.000000       0.000000   0.000000e+00
+SssssssS               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SSm                    290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SsCl                   290.0   2.098089e-01  5.684390e-01  0.000000e+00     0.000000      0.000000       0.000000   4.650956e+00
+SsGeH3                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SssGeH2                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SsssGeH                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SssssGe                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SsAsH2                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SssAsH                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SsssAs                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SdsssAs                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SddsAs                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SsssssAs               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SsSeH                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SdSe                   290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SssSe                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SaaSe                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SdssSe                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SssssssSe              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SddssSe                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SsBr                   290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SsSnH3                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SssSnH2                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SsssSnH                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SssssSn                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SsI                    290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SsPbH3                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SssPbH2                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SsssPbH                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+SssssPb                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minHBd                 290.0   3.143133e-01  2.497104e-01 -1.862311e-01     0.000000      0.364584       0.518176   8.023611e-01
+minwHBd                290.0   2.408122e-02  1.220844e-01  0.000000e+00     0.000000      0.000000       0.000000   9.349314e-01
+minHBa                 290.0   3.191895e+00  3.116733e+00 -1.932454e+00     0.897242      2.423391       5.198031   1.218676e+01
+minwHBa                290.0  -1.419243e-01  8.047470e-01 -1.762862e+00    -0.702245     -0.213542       0.282485   2.085026e+00
+minHBint2              290.0   1.628050e+00  2.616689e+00 -1.090512e+00     0.000000      0.000000       3.158580   8.152732e+00
+minHBint3              290.0   6.409463e-01  1.428754e+00 -1.148039e+00     0.000000      0.000000       0.849019   7.252555e+00
+minHBint4              290.0   7.783184e-01  1.619612e+00 -2.211542e+00     0.000000      0.000000       0.721122   7.566280e+00
+minHBint5              290.0   5.765927e-01  1.418650e+00 -2.186988e+00     0.000000      0.000000       0.361094   7.249988e+00
+minHBint6              290.0   9.224021e-01  1.801018e+00 -1.254971e+00     0.000000      0.000000       1.090690   9.240150e+00
+minHBint7              290.0   6.031927e-01  1.575183e+00 -2.229185e+00     0.000000      0.000000       0.372505   8.598940e+00
+minHBint8              290.0   4.868604e-01  1.569882e+00 -2.078657e+00     0.000000      0.000000       0.000000   9.064252e+00
+minHBint9              290.0   5.435309e-01  1.530996e+00 -9.934355e-01     0.000000      0.000000       0.000000   9.011969e+00
+minHBint10             290.0   2.798339e-01  1.021858e+00 -1.712676e+00     0.000000      0.000000       0.000000   8.220141e+00
+minHsOH                290.0   2.149501e-01  2.764795e-01 -1.862311e-01     0.000000      0.000000       0.489552   9.760417e-01
+minHdNH                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minHsSH                290.0   1.994486e-03  2.478823e-02  0.000000e+00     0.000000      0.000000       0.000000   3.648894e-01
+minHsNH2               290.0   1.368280e-01  2.413718e-01  0.000000e+00     0.000000      0.000000       0.190937   7.520833e-01
+minHssNH               290.0   1.307755e-01  2.059849e-01  0.000000e+00     0.000000      0.000000       0.315556   8.458333e-01
+minHaaNH               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minHsNH3p              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minHssNH2p             290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minHsssNHp             290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minHtCH                290.0   1.294645e-02  7.730127e-02  0.000000e+00     0.000000      0.000000       0.000000   5.763970e-01
+minHdCH2               290.0   4.417294e-03  4.359759e-02  0.000000e+00     0.000000      0.000000       0.000000   4.789561e-01
+minHdsCH               290.0   4.026995e-01  1.998622e-01  0.000000e+00     0.377124      0.452312       0.520066   7.879904e-01
+minHaaCH               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minHCHnX               290.0   2.408122e-02  1.220844e-01  0.000000e+00     0.000000      0.000000       0.000000   9.349314e-01
+minHCsats              290.0   3.331228e-01  2.435119e-01  0.000000e+00     0.000000      0.351797       0.466775   1.207271e+00
+minHCsatu              290.0   3.786927e-01  3.053710e-01  0.000000e+00     0.000000      0.451741       0.611028   9.765430e-01
+minHAvin               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minHother              290.0   4.024890e-01  1.997492e-01  0.000000e+00     0.377124      0.452312       0.517661   7.879904e-01
+minHmisc               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minsLi                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minssBe                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minssssBem             290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minsBH2                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minssBH                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minsssB                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minssssBm              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minsCH3                290.0   1.265423e+00  8.729013e-01  0.000000e+00     0.000000      1.556775       2.015488   2.404903e+00
+mindCH2                290.0   4.015736e-02  3.943455e-01  0.000000e+00     0.000000      0.000000       0.000000   4.239818e+00
+minssCH2               290.0   2.529251e-01  5.135713e-01 -1.062629e+00     0.000000      0.081872       0.680495   1.449838e+00
+mintCH                 290.0   1.576926e-01  9.386289e-01  0.000000e+00     0.000000      0.000000       0.000000   6.016463e+00
+mindsCH                290.0   1.384603e+00  6.943822e-01  0.000000e+00     1.228990      1.595210       1.861596   2.298374e+00
+minaaCH                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minsssCH               290.0  -2.815590e-01  6.143687e-01 -1.940713e+00    -0.654498      0.000000       0.000000   1.019676e+00
+minddC                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+mintsC                 290.0   7.658328e-02  4.558023e-01  0.000000e+00     0.000000      0.000000       0.000000   2.967018e+00
+mindssC                290.0  -1.491140e-01  7.940248e-01 -1.762862e+00    -0.702245     -0.213542       0.276275   2.036230e+00
+minaasC                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minaaaC                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minssssC               290.0  -3.127680e-01  7.199624e-01 -4.939438e+00    -0.131748      0.000000       0.000000   4.559028e-01
+minsNH3p               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minsNH2                290.0   1.351666e+00  2.341998e+00  0.000000e+00     0.000000      0.000000       3.218750   6.320833e+00
+minssNH2p              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+mindNH                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minssNH                290.0   8.934204e-01  1.324945e+00  0.000000e+00     0.000000      0.000000       2.516604   3.834026e+00
+minaaNH                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+mintN                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minsssNHp              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+mindsN                 290.0   8.056003e-01  1.606956e+00  0.000000e+00     0.000000      0.000000       0.000000   4.917818e+00
+minaaN                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minsssN                290.0   6.911298e-01  9.489868e-01  0.000000e+00     0.000000      0.000000       1.459167   2.869324e+00
+minddsN                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minaasN                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minssssNp              290.0   2.658012e-02  1.500492e-01  0.000000e+00     0.000000      0.000000       0.000000   1.061721e+00
+minsOH                 290.0   4.814914e+00  4.825800e+00  0.000000e+00     0.000000      7.721505       9.430996   1.195142e+01
+mindO                  290.0   7.270734e+00  5.523900e+00  0.000000e+00     0.000000     10.708170      11.606148   1.444086e+01
+minssO                 290.0   2.374266e+00  2.678209e+00  0.000000e+00     0.000000      0.000000       5.210876   6.538549e+00
+minaaO                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minaOm                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minsOm                 290.0   1.402254e+00  3.679984e+00  0.000000e+00     0.000000      0.000000       0.000000   1.245015e+01
+minsF                  290.0   6.706765e-01  3.120349e+00  0.000000e+00     0.000000      0.000000       0.000000   1.701111e+01
+minsSiH3               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minssSiH2              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minsssSiH              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minssssSi              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minsPH2                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minssPH                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minsssP                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+mindsssP               290.0  -8.457216e-02  7.315351e-01 -7.054068e+00     0.000000      0.000000       0.000000   0.000000e+00
+minddsP                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minsssssP              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minsSH                 290.0   4.564561e-03  5.758684e-02  0.000000e+00     0.000000      0.000000       0.000000   8.719993e-01
+mindS                  290.0   1.545503e-02  1.095839e-01  0.000000e+00     0.000000      0.000000       0.000000   1.091614e+00
+minssS                 290.0  -1.552366e-01  4.786523e-01 -1.932454e+00     0.000000      0.000000       0.000000   0.000000e+00
+minaaS                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+mindssS                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minddssS               290.0  -2.566245e-01  1.144659e+00 -6.341020e+00     0.000000      0.000000       0.000000   0.000000e+00
+minssssssS             290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minSm                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minsCl                 290.0   1.329916e-01  2.954557e-01  0.000000e+00     0.000000      0.000000       0.000000   1.212425e+00
+minsGeH3               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minssGeH2              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minsssGeH              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minssssGe              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minsAsH2               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minssAsH               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minsssAs               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+mindsssAs              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minddsAs               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minsssssAs             290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minsSeH                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+mindSe                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minssSe                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minaaSe                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+mindssSe               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minssssssSe            290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minddssSe              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minsBr                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minsSnH3               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minssSnH2              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minsssSnH              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minssssSn              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minsI                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minsPbH3               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minssPbH2              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minsssPbH              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+minssssPb              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxHBd                 290.0   4.007014e-01  2.613995e-01  0.000000e+00     0.101823      0.479015       0.619069   9.760417e-01
+maxwHBd                290.0   2.408122e-02  1.220844e-01  0.000000e+00     0.000000      0.000000       0.000000   9.349314e-01
+maxHBa                 290.0   1.023593e+01  3.440928e+00  0.000000e+00     9.329694     11.068185      12.388044   1.729180e+01
+maxwHBa                290.0   1.705007e+00  1.011475e+00  0.000000e+00     1.479929      1.857009       2.081438   6.016463e+00
+maxHBint2              290.0   2.196991e+00  3.052283e+00  0.000000e+00     0.000000      0.000000       5.219996   8.152732e+00
+maxHBint3              290.0   1.651233e+00  2.311027e+00  0.000000e+00     0.000000      0.000000       3.624521   9.008051e+00
+maxHBint4              290.0   1.524406e+00  2.496293e+00  0.000000e+00     0.000000      0.000000       2.547990   8.579240e+00
+maxHBint5              290.0   1.211590e+00  2.289822e+00  0.000000e+00     0.000000      0.000000       1.037890   8.154175e+00
+maxHBint6              290.0   1.894370e+00  2.662250e+00  0.000000e+00     0.000000      0.000000       4.220587   9.240150e+00
+maxHBint7              290.0   1.292251e+00  2.407985e+00  0.000000e+00     0.000000      0.000000       1.088361   9.612852e+00
+maxHBint8              290.0   8.949061e-01  2.148531e+00  0.000000e+00     0.000000      0.000000       0.000000   9.064252e+00
+maxHBint9              290.0   8.917491e-01  2.066072e+00  0.000000e+00     0.000000      0.000000       0.000000   9.073288e+00
+maxHBint10             290.0   6.271086e-01  1.676916e+00  0.000000e+00     0.000000      0.000000       0.000000   8.220141e+00
+maxHsOH                290.0   2.584406e-01  2.884102e-01  0.000000e+00     0.000000      0.035193       0.561211   9.760417e-01
+maxHdNH                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxHsSH                290.0   2.084182e-03  2.559033e-02  0.000000e+00     0.000000      0.000000       0.000000   3.648894e-01
+maxHsNH2               290.0   1.395527e-01  2.454590e-01  0.000000e+00     0.000000      0.000000       0.190937   7.520833e-01
+maxHssNH               290.0   1.341803e-01  2.103501e-01  0.000000e+00     0.000000      0.000000       0.323744   8.458333e-01
+maxHaaNH               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxHsNH3p              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxHssNH2p             290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxHsssNHp             290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxHtCH                290.0   1.294645e-02  7.730127e-02  0.000000e+00     0.000000      0.000000       0.000000   5.763970e-01
+maxHdCH2               290.0   4.417294e-03  4.359759e-02  0.000000e+00     0.000000      0.000000       0.000000   4.789561e-01
+maxHdsCH               290.0   4.565154e-01  2.252584e-01  0.000000e+00     0.421278      0.516318       0.590543   8.226372e-01
+maxHaaCH               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxHCHnX               290.0   2.408122e-02  1.220844e-01  0.000000e+00     0.000000      0.000000       0.000000   9.349314e-01
+maxHCsats              290.0   5.093531e-01  3.457421e-01  0.000000e+00     0.000000      0.587547       0.764523   1.207271e+00
+maxHCsatu              290.0   4.492957e-01  3.639939e-01  0.000000e+00     0.000000      0.526406       0.758944   1.172614e+00
+maxHAvin               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxHother              290.0   4.567012e-01  2.251534e-01  0.000000e+00     0.421278      0.516318       0.590543   8.226372e-01
+maxHmisc               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxsLi                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxssBe                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxssssBem             290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxsBH2                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxssBH                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxsssB                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxssssBm              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxsCH3                290.0   1.379226e+00  9.374251e-01  0.000000e+00     0.000000      1.820693       2.127793   2.578357e+00
+maxdCH2                290.0   4.015736e-02  3.943455e-01  0.000000e+00     0.000000      0.000000       0.000000   4.239818e+00
+maxssCH2               290.0   5.737134e-01  5.097914e-01  0.000000e+00     0.000000      0.590471       1.046262   1.557870e+00
+maxtCH                 290.0   1.576926e-01  9.386289e-01  0.000000e+00     0.000000      0.000000       0.000000   6.016463e+00
+maxdsCH                290.0   1.561258e+00  7.509598e-01  0.000000e+00     1.442101      1.841206       2.051034   2.524146e+00
+maxaaCH                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxsssCH               290.0   1.330766e-01  2.480593e-01  0.000000e+00     0.000000      0.000000       0.132800   1.019676e+00
+maxddC                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxtsC                 290.0   7.658328e-02  4.558023e-01  0.000000e+00     0.000000      0.000000       0.000000   2.967018e+00
+maxdssC                290.0   8.057779e-01  5.195550e-01  0.000000e+00     0.422882      0.853562       1.283223   2.036230e+00
+maxaasC                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxaaaC                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxssssC               290.0   1.588183e-02  6.686673e-02  0.000000e+00     0.000000      0.000000       0.000000   5.046296e-01
+maxsNH3p               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxsNH2                290.0   1.368045e+00  2.372110e+00  0.000000e+00     0.000000      0.000000       3.218750   6.487690e+00
+maxssNH2p              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxdNH                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxssNH                290.0   9.085466e-01  1.344936e+00  0.000000e+00     0.000000      0.000000       2.608850   3.834026e+00
+maxaaNH                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxtN                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxsssNHp              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxdsN                 290.0   8.256851e-01  1.645476e+00  0.000000e+00     0.000000      0.000000       0.000000   4.933236e+00
+maxaaN                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxsssN                290.0   7.106329e-01  9.714132e-01  0.000000e+00     0.000000      0.000000       1.510222   2.869324e+00
+maxddsN                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxaasN                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxssssNp              290.0   2.660995e-02  1.502565e-01  0.000000e+00     0.000000      0.000000       0.000000   1.070371e+00
+maxsOH                 290.0   5.012749e+00  5.046630e+00  0.000000e+00     0.000000      7.721505       9.705067   1.267671e+01
+maxdO                  290.0   7.640257e+00  5.829542e+00  0.000000e+00     0.000000     10.935187      12.336220   1.561036e+01
+maxssO                 290.0   2.449967e+00  2.768078e+00  0.000000e+00     0.000000      0.000000       5.349095   7.077032e+00
+maxaaO                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxaOm                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxsOm                 290.0   1.406366e+00  3.690692e+00  0.000000e+00     0.000000      0.000000       0.000000   1.245015e+01
+maxsF                  290.0   6.908405e-01  3.217712e+00  0.000000e+00     0.000000      0.000000       0.000000   1.729180e+01
+maxsSiH3               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxssSiH2              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxsssSiH              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxssssSi              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxsPH2                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxssPH                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxsssP                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxdsssP               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxddsP                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxsssssP              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxsSH                 290.0   4.895937e-03  6.264960e-02  0.000000e+00     0.000000      0.000000       0.000000   9.680984e-01
+maxdS                  290.0   1.545503e-02  1.095839e-01  0.000000e+00     0.000000      0.000000       0.000000   1.091614e+00
+maxssS                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxaaS                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxdssS                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxddssS               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxssssssS             290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxSm                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxsCl                 290.0   1.347669e-01  2.994051e-01  0.000000e+00     0.000000      0.000000       0.000000   1.212425e+00
+maxsGeH3               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxssGeH2              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxsssGeH              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxssssGe              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxsAsH2               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxssAsH               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxsssAs               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxdsssAs              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxddsAs               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxsssssAs             290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxsSeH                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxdSe                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxssSe                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxaaSe                290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxdssSe               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxssssssSe            290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxddssSe              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxsBr                 290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxsSnH3               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxssSnH2              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxsssSnH              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxssssSn              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxsI                  290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxsPbH3               290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxssPbH2              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxsssPbH              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+maxssssPb              290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+sumI                   289.0   5.369719e+01  3.296358e+01  1.269136e+01    36.666667     46.500000      64.064815   3.368333e+02
+hmax                   290.0   7.634948e-01  2.211801e-01  2.555556e-01     0.611999      0.733952       0.866093   1.892509e+00
+gmax                   289.0   1.036664e+01  3.207465e+00  2.212680e+00     9.410680     11.075595      12.393178   1.729180e+01
+hmin                   290.0   1.364417e-02  2.709286e-01 -8.674928e-01    -0.147438      0.059601       0.213470   1.200000e+00
+gmin                   290.0  6.198942e+305           inf -7.054068e+00    -1.388594     -0.710406      -0.014115  1.797693e+308
+LipoaffinityIndex      290.0   4.146298e+00  3.512660e+00 -1.064454e+01     1.918553      3.830995       6.109920   1.749874e+01
+MAXDN                  290.0   2.294897e+00  1.220262e+00  0.000000e+00     1.523432      2.145082       2.806064   7.365797e+00
+MAXDP                  290.0   4.217156e+00  1.824776e+00  0.000000e+00     3.164158      4.374619       5.370182   9.291804e+00
+DELS                   290.0   3.121182e+01  3.153002e+01  0.000000e+00    11.345443     21.731702      39.640670   2.543692e+02
+MAXDN2                 290.0   2.264987e+00  1.083090e+00  0.000000e+00     1.540723      2.145082       2.815932   6.423373e+00
+MAXDP2                 290.0   4.215366e+00  1.778112e+00  0.000000e+00     3.164158      4.328413       5.358063   9.291804e+00
+DELS2                  290.0   3.183588e+01  3.134847e+01  0.000000e+00    12.573102     22.628631      40.539629   2.543692e+02
+ETA_Alpha              290.0   1.030877e+01  5.901979e+00  3.333300e-01     6.666645      9.666645      12.658320   6.316661e+01
+ETA_AlphaP             290.0   4.720342e-01  2.504366e-02  3.333300e-01     0.459200      0.472850       0.484850   5.833300e-01
+ETA_dAlpha_A           290.0   1.585724e-03  8.319985e-03  0.000000e+00     0.000000      0.000000       0.000000   8.333000e-02
+ETA_dAlpha_B           290.0   2.955159e-02  2.153888e-02  0.000000e+00     0.015150      0.027150       0.040800   1.666700e-01
+ETA_Epsilon_1          290.0   6.079907e-01  8.426014e-02  4.533300e-01     0.538247      0.592250       0.662858   8.765300e-01
+ETA_Epsilon_2          290.0   8.730348e-01  9.171660e-02  7.181800e-01     0.806070      0.870370       0.918588   1.466670e+00
+ETA_Epsilon_3          290.0   4.384399e-01  6.704454e-03  3.800000e-01     0.433330      0.438865       0.442777   4.538500e-01
+ETA_Epsilon_4          290.0   5.621125e-01  7.496371e-02  4.437500e-01     0.507683      0.550570       0.605890   8.555600e-01
+ETA_Epsilon_5          290.0   8.131874e-01  6.657922e-02  6.692300e-01     0.763883      0.807540       0.851252   1.133330e+00
+ETA_dEpsilon_A         290.0   1.695495e-01  8.561650e-02  1.640000e-02     0.100730      0.153820       0.225735   4.386000e-01
+ETA_dEpsilon_B         290.0   4.587769e-02  3.496881e-02  0.000000e+00     0.018092      0.043640       0.065528   1.600900e-01
+ETA_dEpsilon_C         290.0  -1.236721e-01  7.690970e-02 -4.164300e-01    -0.165160     -0.113265      -0.066075  -8.960000e-03
+ETA_dEpsilon_D         290.0   5.984728e-02  7.298295e-02  0.000000e+00     0.017917      0.041385       0.090448   7.777800e-01
+ETA_Psi_1              290.0   5.478043e-01  7.215241e-02  2.272700e-01     0.501700      0.549125       0.598595   7.295400e-01
+ETA_dPsi_A             290.0   1.665383e-01  7.202495e-02  0.000000e+00     0.115695      0.165165       0.212590   4.870200e-01
+ETA_dPsi_B             290.0   5.258621e-05  8.955108e-04  0.000000e+00     0.000000      0.000000       0.000000   1.525000e-02
+ETA_Shape_P            290.0   2.187896e-01  1.018732e-01  0.000000e+00     0.154205      0.211650       0.276468   5.714300e-01
+ETA_Shape_Y            290.0   3.068494e-01  9.840334e-02  0.000000e+00     0.247223      0.303365       0.370685   6.000000e-01
+ETA_Shape_X            290.0   3.406290e-02  5.514965e-02  0.000000e+00     0.000000      0.000000       0.055590   3.712900e-01
+ETA_Beta               290.0   2.134310e+01  1.177097e+01  0.000000e+00    14.250000     20.750000      26.187500   1.337500e+02
+ETA_BetaP              290.0   9.902124e-01  1.871955e-01  0.000000e+00     0.863090      1.018230       1.117405   1.433330e+00
+ETA_Beta_s             290.0   1.366810e+01  8.239309e+00  0.000000e+00     8.750000     12.375000      16.437500   8.575000e+01
+ETA_BetaP_s            290.0   6.184691e-01  5.939513e-02  0.000000e+00     0.592110      0.612285       0.645830   9.000000e-01
+ETA_Beta_ns            290.0   7.675000e+00  4.731888e+00  0.000000e+00     4.500000      7.500000      10.500000   4.800000e+01
+ETA_BetaP_ns           290.0   3.717427e-01  1.743347e-01  0.000000e+00     0.241040      0.381050       0.500000   8.000000e-01
+ETA_dBeta              290.0  -5.993103e+00  6.480604e+00 -3.775000e+01    -8.187500     -4.500000      -2.000000   2.500000e+00
+ETA_dBetaP             290.0  -2.467264e-01  1.811048e-01 -9.000000e-01    -0.366347     -0.250000      -0.115947   1.666700e-01
+ETA_Beta_ns_d          290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+ETA_BetaP_ns_d         290.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+ETA_Eta                290.0   2.415351e+01  2.647606e+01  0.000000e+00    10.479025     17.822570      29.174645   2.783238e+02
+ETA_EtaP               290.0   9.531424e-01  3.481747e-01  0.000000e+00     0.702273      0.887070       1.143728   2.122700e+00
+ETA_Eta_R              290.0   4.112359e+01  4.253138e+01  0.000000e+00    19.703457     31.795570      49.853350   4.952520e+02
+ETA_Eta_F              290.0   1.697008e+01  1.733657e+01 -2.629800e-01     8.637830     14.032870      20.487180   2.169282e+02
+ETA_EtaP_F             290.0   7.134578e-01  2.178074e-01 -4.383000e-02     0.575835      0.715655       0.851040   1.595060e+00
+ETA_Eta_L              290.0   6.228699e+00  4.267028e+00  0.000000e+00     3.554003      5.381675       7.670828   3.876347e+01
+ETA_EtaP_L             290.0   2.752303e-01  6.037992e-02  0.000000e+00     0.231777      0.262655       0.317173   4.755400e-01
+ETA_Eta_R_L            290.0   1.037967e+01  6.051065e+00  0.000000e+00     6.728957      9.637325      12.551342   6.444452e+01
+ETA_Eta_F_L            290.0   4.150973e+00  2.324016e+00 -4.519000e-02     2.776755      4.040320       5.074702   2.568105e+01
+ETA_EtaP_F_L           290.0   1.977093e-01  6.094871e-02 -7.530000e-03     0.154160      0.210180       0.241182   3.068700e-01
+ETA_Eta_B              290.0   4.673828e-01  4.132833e-01 -3.547000e-02     0.195562      0.355490       0.627117   3.469480e+00
+ETA_EtaP_B             290.0   2.045390e-02  1.116365e-02 -2.730000e-03     0.012945      0.019590       0.028012   6.095000e-02
+ETA_Eta_B_RC           290.0   6.749690e-01  4.886057e-01  0.000000e+00     0.366480      0.543475       0.861618   4.157480e+00
+ETA_EtaP_B_RC          290.0   2.978824e-02  1.055090e-02  0.000000e+00     0.022017      0.028935       0.037137   6.095000e-02
+FMF                    300.0   3.232221e-01  1.353236e-01  0.000000e+00     0.250000      0.333333       0.400962   6.428571e-01
+fragC                  300.0   1.218041e+02  1.792582e+02  1.000000e-02    17.067500     67.060000     164.547500   2.089370e+03
+nHBAcc                 300.0   5.153333e+00  4.804174e+00  0.000000e+00     2.000000      4.000000       6.000000   4.400000e+01
+nHBAcc2                300.0   5.403333e+00  4.837907e+00  0.000000e+00     3.000000      4.000000       7.000000   4.400000e+01
+nHBAcc3                300.0   4.840000e+00  3.928423e+00  0.000000e+00     2.000000      4.000000       6.000000   3.300000e+01
+nHBAcc_Lipinski        300.0   5.443333e+00  4.830933e+00  0.000000e+00     3.000000      4.000000       7.000000   4.400000e+01
+nHBDon                 300.0   2.016667e+00  2.608782e+00  0.000000e+00     1.000000      1.000000       2.000000   2.100000e+01
+nHBDon_Lipinski        300.0   2.350000e+00  3.010711e+00  0.000000e+00     1.000000      1.500000       3.000000   2.100000e+01
+HybRatio               299.0   4.450528e-01  2.951873e-01  0.000000e+00     0.245000      0.400000       0.702916   1.000000e+00
+Kier1                  300.0   1.827074e+01  1.266272e+01  0.000000e+00    12.067422     15.879017      21.240375   1.212089e+02
+Kier2                  300.0   7.915555e+00  6.392670e+00  0.000000e+00     4.984568      6.957500       9.001614   6.131757e+01
+Kier3                  300.0   4.681270e+00  4.980676e+00  0.000000e+00     2.560000      3.555556       5.100069   5.784395e+01
+nAtomLC                300.0   5.393333e+00  7.499741e+00  0.000000e+00     2.000000      4.000000       7.000000   1.000000e+02
+nAtomP                 300.0   8.690000e+00  4.980957e+00  0.000000e+00     6.000000      8.000000      11.250000   2.800000e+01
+nAtomLAC               300.0   1.620000e+00  2.133253e+00  0.000000e+00     0.000000      0.000000       3.000000   1.600000e+01
+MLogP                  300.0   2.598867e+00  8.786780e-01  8.000000e-01     2.010000      2.560000       3.220000   8.280000e+00
+McGowan_Volume         300.0   2.411109e+00  1.478434e+00  1.673000e-01     1.538750      2.258100       2.880200   1.480680e+01
+MDEC-11                300.0   4.230354e-01  9.839746e-01  0.000000e+00     0.000000      0.000000       0.500000   9.973922e+00
+MDEC-12                300.0   2.557628e+00  3.102947e+00  0.000000e+00     0.000000      1.639301       3.896149   2.298173e+01
+MDEC-13                300.0   2.865646e+00  4.564682e+00  0.000000e+00     0.000000      1.428146       3.726275   3.947164e+01
+MDEC-14                300.0   6.343202e-01  1.326618e+00  0.000000e+00     0.000000      0.000000       0.500000   6.788200e+00
+MDEC-22                300.0   7.924273e+00  7.123590e+00  0.000000e+00     2.449490      6.083643      11.776016   3.604290e+01
+MDEC-23                300.0   1.228268e+01  7.964290e+00  0.000000e+00     6.441084     10.987596      18.000301   3.620502e+01
+MDEC-24                300.0   1.512962e+00  2.899222e+00  0.000000e+00     0.000000      0.000000       1.569606   1.191969e+01
+MDEC-33                300.0   6.077794e+00  6.635450e+00  0.000000e+00     1.636223      4.323504       7.856519   3.578618e+01
+MDEC-34                300.0   1.651181e+00  3.063169e+00  0.000000e+00     0.000000      0.000000       2.633661   1.403837e+01
+MDEC-44                300.0   1.716471e-01  5.173779e-01  0.000000e+00     0.000000      0.000000       0.000000   3.325361e+00
+MDEO-11                300.0   8.046763e-01  1.377184e+00  0.000000e+00     0.000000      0.250000       1.170073   1.028756e+01
+MDEO-12                300.0   5.681973e-01  1.295292e+00  0.000000e+00     0.000000      0.000000       0.707107   8.843055e+00
+MDEO-22                300.0   1.727413e-01  6.375905e-01  0.000000e+00     0.000000      0.000000       0.000000   6.059618e+00
+MDEN-11                300.0   1.904774e-02  1.313613e-01  0.000000e+00     0.000000      0.000000       0.000000   1.558698e+00
+MDEN-12                300.0   1.139317e-01  4.570393e-01  0.000000e+00     0.000000      0.000000       0.000000   4.393130e+00
+MDEN-13                300.0   2.046758e-02  7.415898e-02  0.000000e+00     0.000000      0.000000       0.000000   5.000000e-01
+MDEN-22                300.0   2.275438e-01  1.030801e+00  0.000000e+00     0.000000      0.000000       0.000000   1.274258e+01
+MDEN-23                300.0   1.546428e-01  4.576874e-01  0.000000e+00     0.000000      0.000000       0.000000   4.945638e+00
+MDEN-33                300.0   6.132385e-02  2.503239e-01  0.000000e+00     0.000000      0.000000       0.000000   3.000000e+00
+MLFER_A                300.0   5.303700e-01  6.914494e-01 -3.370000e-01     0.003000      0.415500       0.716500   6.379000e+00
+MLFER_BH               300.0   1.601187e+00  1.545751e+00  7.100000e-02     0.773250      1.226000       1.874750   1.381100e+01
+MLFER_BO               300.0   1.618803e+00  1.567085e+00  6.400000e-02     0.782750      1.212500       1.909000   1.393100e+01
+MLFER_S                300.0   2.123750e+00  1.630024e+00  2.060000e-01     1.363250      1.677000       2.517750   1.604800e+01
+MLFER_E                300.0   1.700463e+00  9.719448e-01 -1.430000e-01     1.162000      1.552500       2.001000   9.104000e+00
+MLFER_L                300.0   1.152335e+01  7.556121e+00  1.300000e-01     7.528000     10.362500      13.526500   8.218000e+01
+PetitjeanNumber        300.0   4.748788e-01  1.154066e-01  0.000000e+00     0.444444      0.470588       0.500000   9.990000e-01
+nRing                  300.0   2.450000e+00  1.532535e+00  0.000000e+00     1.000000      2.000000       4.000000   8.000000e+00
+n3Ring                 300.0   1.666667e-02  1.282330e-01  0.000000e+00     0.000000      0.000000       0.000000   1.000000e+00
+n4Ring                 300.0   6.000000e-02  2.378836e-01  0.000000e+00     0.000000      0.000000       0.000000   1.000000e+00
+n5Ring                 300.0   5.133333e-01  7.057970e-01  0.000000e+00     0.000000      0.000000       1.000000   4.000000e+00
+n6Ring                 300.0   1.810000e+00  1.213318e+00  0.000000e+00     1.000000      2.000000       3.000000   6.000000e+00
+n7Ring                 300.0   2.666667e-02  1.809180e-01  0.000000e+00     0.000000      0.000000       0.000000   2.000000e+00
+n8Ring                 300.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+n9Ring                 300.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+n10Ring                300.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+n11Ring                300.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+n12Ring                300.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nG12Ring               300.0   2.333333e-02  1.512121e-01  0.000000e+00     0.000000      0.000000       0.000000   1.000000e+00
+nFRing                 300.0   1.650000e+00  2.633874e+00  0.000000e+00     0.000000      0.000000       2.250000   1.500000e+01
+nF4Ring                300.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nF5Ring                300.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nF6Ring                300.0   7.000000e-02  4.536364e-01  0.000000e+00     0.000000      0.000000       0.000000   4.000000e+00
+nF7Ring                300.0   5.666667e-02  2.315909e-01  0.000000e+00     0.000000      0.000000       0.000000   1.000000e+00
+nF8Ring                300.0   6.333333e-02  3.156809e-01  0.000000e+00     0.000000      0.000000       0.000000   3.000000e+00
+nF9Ring                300.0   2.600000e-01  5.598614e-01  0.000000e+00     0.000000      0.000000       0.000000   4.000000e+00
+nF10Ring               300.0   4.900000e-01  9.051506e-01  0.000000e+00     0.000000      0.000000       1.000000   4.000000e+00
+nF11Ring               300.0   5.000000e-02  2.962982e-01  0.000000e+00     0.000000      0.000000       0.000000   2.000000e+00
+nF12Ring               300.0   3.000000e-02  1.894368e-01  0.000000e+00     0.000000      0.000000       0.000000   2.000000e+00
+nFG12Ring              300.0   6.300000e-01  1.356182e+00  0.000000e+00     0.000000      0.000000       0.000000   1.000000e+01
+nTRing                 300.0   4.100000e+00  3.832182e+00  0.000000e+00     1.000000      3.000000       6.000000   2.100000e+01
+nT4Ring                300.0   6.000000e-02  2.378836e-01  0.000000e+00     0.000000      0.000000       0.000000   1.000000e+00
+nT5Ring                300.0   5.133333e-01  7.057970e-01  0.000000e+00     0.000000      0.000000       1.000000   4.000000e+00
+nT6Ring                300.0   1.880000e+00  1.234509e+00  0.000000e+00     1.000000      2.000000       3.000000   6.000000e+00
+nT7Ring                300.0   8.333333e-02  2.886751e-01  0.000000e+00     0.000000      0.000000       0.000000   2.000000e+00
+nT8Ring                300.0   6.333333e-02  3.156809e-01  0.000000e+00     0.000000      0.000000       0.000000   3.000000e+00
+nT9Ring                300.0   2.600000e-01  5.598614e-01  0.000000e+00     0.000000      0.000000       0.000000   4.000000e+00
+nT10Ring               300.0   4.900000e-01  9.051506e-01  0.000000e+00     0.000000      0.000000       1.000000   4.000000e+00
+nT11Ring               300.0   5.000000e-02  2.962982e-01  0.000000e+00     0.000000      0.000000       0.000000   2.000000e+00
+nT12Ring               300.0   3.000000e-02  1.894368e-01  0.000000e+00     0.000000      0.000000       0.000000   2.000000e+00
+nTG12Ring              300.0   6.533333e-01  1.375790e+00  0.000000e+00     0.000000      0.000000       0.250000   1.000000e+01
+nHeteroRing            300.0   8.600000e-01  1.139324e+00  0.000000e+00     0.000000      0.000000       1.000000   6.000000e+00
+n3HeteroRing           300.0   6.666667e-03  8.151301e-02  0.000000e+00     0.000000      0.000000       0.000000   1.000000e+00
+n4HeteroRing           300.0   5.666667e-02  2.315909e-01  0.000000e+00     0.000000      0.000000       0.000000   1.000000e+00
+n5HeteroRing           300.0   3.566667e-01  6.513086e-01  0.000000e+00     0.000000      0.000000       1.000000   4.000000e+00
+n6HeteroRing           300.0   4.033333e-01  7.273829e-01  0.000000e+00     0.000000      0.000000       1.000000   4.000000e+00
+n7HeteroRing           300.0   1.333333e-02  1.148893e-01  0.000000e+00     0.000000      0.000000       0.000000   1.000000e+00
+n8HeteroRing           300.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+n9HeteroRing           300.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+n10HeteroRing          300.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+n11HeteroRing          300.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+n12HeteroRing          300.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nG12HeteroRing         300.0   2.333333e-02  1.512121e-01  0.000000e+00     0.000000      0.000000       0.000000   1.000000e+00
+nFHeteroRing           300.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nF4HeteroRing          300.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nF5HeteroRing          300.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nF6HeteroRing          300.0   3.666667e-02  3.198906e-01  0.000000e+00     0.000000      0.000000       0.000000   4.000000e+00
+nF7HeteroRing          300.0   3.666667e-02  1.882561e-01  0.000000e+00     0.000000      0.000000       0.000000   1.000000e+00
+nF8HeteroRing          300.0   5.333333e-02  2.659410e-01  0.000000e+00     0.000000      0.000000       0.000000   3.000000e+00
+nF9HeteroRing          300.0   1.233333e-01  4.713769e-01  0.000000e+00     0.000000      0.000000       0.000000   4.000000e+00
+nF10HeteroRing         300.0   1.133333e-01  4.012800e-01  0.000000e+00     0.000000      0.000000       0.000000   3.000000e+00
+nF11HeteroRing         300.0   3.000000e-02  2.365442e-01  0.000000e+00     0.000000      0.000000       0.000000   2.000000e+00
+nF12HeteroRing         300.0   2.666667e-02  1.809180e-01  0.000000e+00     0.000000      0.000000       0.000000   2.000000e+00
+nFG12HeteroRing        300.0   1.466667e-01  7.919889e-01  0.000000e+00     0.000000      0.000000       0.000000   1.000000e+01
+nTHeteroRing           300.0   0.000000e+00  0.000000e+00  0.000000e+00     0.000000      0.000000       0.000000   0.000000e+00
+nT4HeteroRing          300.0   5.666667e-02  2.315909e-01  0.000000e+00     0.000000      0.000000       0.000000   1.000000e+00
+nT5HeteroRing          300.0   3.566667e-01  6.513086e-01  0.000000e+00     0.000000      0.000000       1.000000   4.000000e+00
+nT6HeteroRing          300.0   4.400000e-01  7.800180e-01  0.000000e+00     0.000000      0.000000       1.000000   4.000000e+00
+nT7HeteroRing          300.0   5.000000e-02  2.183091e-01  0.000000e+00     0.000000      0.000000       0.000000   1.000000e+00
+nT8HeteroRing          300.0   5.333333e-02  2.659410e-01  0.000000e+00     0.000000      0.000000       0.000000   3.000000e+00
+nT9HeteroRing          300.0   1.233333e-01  4.713769e-01  0.000000e+00     0.000000      0.000000       0.000000   4.000000e+00
+nT10HeteroRing         300.0   1.133333e-01  4.012800e-01  0.000000e+00     0.000000      0.000000       0.000000   3.000000e+00
+nT11HeteroRing         300.0   3.000000e-02  2.365442e-01  0.000000e+00     0.000000      0.000000       0.000000   2.000000e+00
+nT12HeteroRing         300.0   2.666667e-02  1.809180e-01  0.000000e+00     0.000000      0.000000       0.000000   2.000000e+00
+nTG12HeteroRing        300.0   1.700000e-01  8.387162e-01  0.000000e+00     0.000000      0.000000       0.000000   1.000000e+01
+nRotB                  300.0   4.726667e+00  5.937688e+00  0.000000e+00     2.000000      4.000000       6.000000   6.800000e+01
+RotBFrac               300.0   1.943780e-01  1.428881e-01  0.000000e+00     0.099648      0.179029       0.251603   7.368421e-01
+nRotBt                 300.0   8.600000e+00  7.875282e+00  0.000000e+00     5.000000      7.000000      10.000000   8.700000e+01
+RotBtFrac              300.0   3.657392e-01  1.949539e-01  0.000000e+00     0.248106      0.333333       0.454545   1.000000e+00
+LipinskiFailures       299.0   2.307692e-01  6.159974e-01  0.000000e+00     0.000000      0.000000       0.000000   4.000000e+00
+topoRadius             300.0   3.333878e+04  1.798042e+05  0.000000e+00     4.000000      5.000000       7.000000   9.999990e+05
+topoDiameter           300.0   3.333334e+07  1.798054e+08  0.000000e+00     7.000000     10.000000      13.000000   1.000000e+09
+topoShape              299.0   3.424578e+01  1.797612e+02  2.500000e-01     0.800000      0.888889       1.000000   9.990010e+02
+globalTopoChargeIndex  299.0   1.776355e+00  2.198545e-01  1.149661e+00     1.625271      1.738888       1.900884   2.442809e+00
+TopoPSA                300.0   8.602800e+01  8.141178e+01  0.000000e+00    40.460000     64.435000     114.992500   7.486100e+02
+VABC                   290.0   2.895046e+02  1.748984e+02  1.734669e+01   181.963198    269.413750     352.590266   1.819810e+03
+VAdjMat                300.0   5.303658e+00  7.368943e-01  1.000000e+00     4.807355      5.321928       5.754888   8.087463e+00
+MW                     300.0   3.228653e+02  1.993447e+02  1.801056e+01   210.796115    289.167794     386.717558   1.881071e+03
+WTPT-1                 300.0   4.508750e+01  2.763546e+01  1.000000e+00    28.017229     41.397714      54.486839   2.713093e+02
+WTPT-2                 300.0   1.990166e+00  8.430774e-02  1.000000e+00     1.950674      2.002922       2.032810   2.149076e+00
+WTPT-3                 300.0   1.659545e+01  1.419987e+01  1.000000e+00     8.177609     12.461102      21.655671   1.376876e+02
+WTPT-4                 300.0   9.516834e+00  9.272121e+00  0.000000e+00     3.162217      7.551728      12.524836   6.830185e+01
+WTPT-5                 300.0   5.394809e+00  7.028705e+00  0.000000e+00     0.000000      3.299925       6.661118   6.069474e+01
+WPATH                  300.0   3.926669e+09  3.608687e+10  0.000000e+00   354.000000    825.500000    1843.000000   5.450001e+11
+WPOL                   300.0   3.699333e+01  2.635911e+01  0.000000e+00    19.000000     30.000000      46.250000   2.160000e+02
+XLogP                  299.0   1.192819e+00  2.254023e+00 -6.914000e+00    -0.036000      1.278000       2.472500   9.880000e+00
+Zagreb                 300.0   1.170867e+02  7.326996e+01  0.000000e+00    70.000000    102.000000     144.500000   6.840000e+02
