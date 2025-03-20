@@ -1,0 +1,12 @@
+DummyClassifier: Accuracy: 0.886
+DummyClassifier: AUC: 0.500
+SGDClassifier: Accuracy: 0.831
+SGDClassifier: AUC: 0.567
+GaussianNB: Accuracy: 0.239
+GaussianNB: AUC: 0.500
+SVC: Accuracy: 0.886
+SVC: AUC: 0.500
+RandomForestClassifier: Accuracy: 0.875
+RandomForestClassifier: AUC: 0.522
+LogisticRegression: Accuracy: 0.871
+LogisticRegression: AUC: 0.604
