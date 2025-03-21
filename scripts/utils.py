@@ -1,5 +1,5 @@
 '''
-Description: 
+Description: This file contains utility functions for data preprocessing and pipeline management for assignment four.
 Authors: Bradyen Miller, Osvaldo Hernandez-Segura
 References: ChatGPT, Numpy documentation, Pandas documentation
 '''

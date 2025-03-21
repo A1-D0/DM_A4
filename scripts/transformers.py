@@ -1,7 +1,5 @@
 '''
-Description: This program contains three CustomTransformer classes. CustomTransformer is used to remove features that have a high correlation with the target feature and features with zero variance.
-CustomInterpolateTransformer.
-CustomClipTransformer.
+Description: This program contains the nine CustomTransformer classes of assignment four. 
 Author: Osvaldo Hernandez-Segura
 References: ChatGPT, Scikit-Learn, Numpy documentation, GeekforGeeks
 '''

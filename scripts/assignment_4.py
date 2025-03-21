@@ -1,14 +1,14 @@
 '''
-Description: 
+Description: This program contains the code for assignment four: A custom pipeline for data preprocessing and modeling using various classifiers. It includes feature selection, scaling, and handling missing values. 
 How to run: python assignment_4.py <filepath> <test_size> <save_pipeline>
 Authors: Bradyen Miller, Osvaldo Hernandez-Segura
 References: ChatGPT, Numpy documentation, Pandas documentation, Scikit-Learn documentation, joblib documentation
 '''
 import pandas as pd
-# import numpy as np
 import os
 import sys
 import utils
+import subprocess
 
 from sklearn.pipeline import Pipeline
 from sklearn.dummy import DummyClassifier
@@ -40,7 +40,7 @@ def get_pipeline(X: pd.DataFrame)-> Pipeline:
                 ("inf_nan", CustomReplaceInfNanWithZeroTransformer()),
                 ("clipper", CustomClipTransformer()),
                 ("scaler", StandardScaler()),
-                # ("rfecv", CustomBestFeaturesTransformer()), # comment this out for testing only; must be in final pipeline
+                ("rfecv", CustomBestFeaturesTransformer()), # comment this out for testing only; must be in final pipeline
                 ("classifier", None)
                 ],
                 memory=mem # cache transformers (to avoid fitting transformers multiple times)
@@ -107,12 +107,9 @@ def main()-> None:
     pipeline = run_pipeline(X, y, classifiers)
     if int(argv[2]) == 1: utils.save_pipeline_to_dump(pipeline, os.path.join(os.pardir, "output"), "modeling_pipeline")
 
-
-    # predict on test data using pipeline (Cf. test_pipeline_predictions.py)
-
-
-    # get top 100 ranking and bottom 100 ranking (Cf. test_pipeline_predictions.py)
-
+    # predict on test data using pipeline
+    result = subprocess.run(['python', 'test_pipeline_predictions.py'], capture_output=True, text=True)
+    print(result.stdout)
 
     exit(0)
 

@@ -1,23 +1,12 @@
 '''
-Description: Test the pipeline predictions.
-How to run: python assignment_4.py <filepath> <test_size> <save_pipeline>
+Description: This program runs the pipeline predictions.
 Authors: Bradyen Miller, Osvaldo Hernandez-Segura
 References: ChatGPT, Numpy documentation, Pandas documentation, Scikit-Learn documentation, joblib documentation
 '''
 import pandas as pd
 import numpy as np
 import os
-# import sys
-# import utils
 import joblib
-
-# from sklearn.pipeline import Pipeline
-# from sklearn.dummy import DummyClassifier
-# from sklearn.naive_bayes import GaussianNB
-# from sklearn.linear_model import SGDClassifier
-# from sklearn.ensemble import RandomForestClassifier
-# from sklearn.naive_bayes import GaussianNB
-# from sklearn.cluster import KMeans
 
 def main()-> None:
 
@@ -53,7 +42,7 @@ def main()-> None:
     try:
         y_score = pipeline.predict_proba(X)[:, 1] # select class 1 -- inhibition
         results['score'] = y_score
-        results.sort_values(by='score', ascending=False, inplace=True)
+        results.sort_values(by='score', ascending=False, inplace=True) # get top 100 ranking and bottom 100 ranking via sorting
     except:
         print("Pipeline does not support predict_proba.")
     
@@ -61,10 +50,6 @@ def main()-> None:
     results.to_csv(output_path, index=False)
 
     print(f"Results saved to {output_path}")
-
-
-
-    # get top 100 ranking and bottom 100 ranking
 
     exit(0)
 
